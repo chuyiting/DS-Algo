@@ -3,12 +3,12 @@
 //
 
 #include "ValidAnagram.h"
-#include <map>
+#include <unordered_map>
 
 bool ValidAnagram::isAnagram(std::string s, std::string t) {
     if (s.length() != t.length()) return false;
 
-    std::map<char, int> dict;
+    std::unordered_map<char, int> dict;
     for (const auto& c:s) {
         if (dict.find(c) != dict.end()) {
             dict[c]++;

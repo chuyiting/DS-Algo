@@ -3,10 +3,10 @@
 //
 
 #include "TwoSum.h"
-#include <map>
+#include <unordered_map>
 
 std::vector<int> TwoSum::twoSum(std::vector<int> &nums, int target) {
-    std::map<int, int> visited; // key: value; val: index of the vector
+    std::unordered_map<int, int> visited; // key: value; val: index of the vector
     for (int i = 0; i < nums.size(); i++) {
         int diff = target - nums[i];
         auto diffId = visited.find(diff);

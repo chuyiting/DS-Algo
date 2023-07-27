@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Week1/TwoSum.h"
 #include "Week1/ValidAnagram.h"
+#include "Week1/ValidParenthesis.h"
 #include <vector>
 #include <string>
 
@@ -33,8 +34,18 @@ void testValidAnagram() {
 
 }
 
+void testValidParenthesis() {
+    auto validParenthesis = std::make_shared<ValidParenthesis>();
+    std::string s1 = "([{}])";
+    std::string s2 = "([)]";
+    std::cout << validParenthesis->isValid(s1) << '\n';
+    std::cout << validParenthesis->isValid(s2) << '\n';
+
+}
+
 int main() {
 //    testTwoSum();
-    testValidAnagram();
+//    testValidAnagram();
+    testValidParenthesis();
     return 0;
 }
