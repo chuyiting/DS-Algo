@@ -70,6 +70,18 @@ build CMakeFiles/ds_algo.dir/Week1/ValidParenthesis.cpp.o: CXX_COMPILER__ds_algo
   OBJECT_DIR = CMakeFiles/ds_algo.dir
   OBJECT_FILE_DIR = CMakeFiles/ds_algo.dir/Week1
 
+build CMakeFiles/ds_algo.dir/Week1/IOPractice.cpp.o: CXX_COMPILER__ds_algo_Debug /Users/eddychu/Desktop/ds_algo/Week1/IOPractice.cpp || cmake_object_order_depends_target_ds_algo
+  DEP_FILE = CMakeFiles/ds_algo.dir/Week1/IOPractice.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/ds_algo.dir
+  OBJECT_FILE_DIR = CMakeFiles/ds_algo.dir/Week1
+
+build CMakeFiles/ds_algo.dir/Week2/TopKFrequent.cpp.o: CXX_COMPILER__ds_algo_Debug /Users/eddychu/Desktop/ds_algo/Week2/TopKFrequent.cpp || cmake_object_order_depends_target_ds_algo
+  DEP_FILE = CMakeFiles/ds_algo.dir/Week2/TopKFrequent.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/ds_algo.dir
+  OBJECT_FILE_DIR = CMakeFiles/ds_algo.dir/Week2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ds_algo
@@ -78,7 +90,7 @@ build CMakeFiles/ds_algo.dir/Week1/ValidParenthesis.cpp.o: CXX_COMPILER__ds_algo
 #############################################
 # Link the executable ds_algo
 
-build ds_algo: CXX_EXECUTABLE_LINKER__ds_algo_Debug CMakeFiles/ds_algo.dir/main.cpp.o CMakeFiles/ds_algo.dir/Week1/TwoSum.cpp.o CMakeFiles/ds_algo.dir/Week1/ValidAnagram.cpp.o CMakeFiles/ds_algo.dir/Week1/ValidParenthesis.cpp.o
+build ds_algo: CXX_EXECUTABLE_LINKER__ds_algo_Debug CMakeFiles/ds_algo.dir/main.cpp.o CMakeFiles/ds_algo.dir/Week1/TwoSum.cpp.o CMakeFiles/ds_algo.dir/Week1/ValidAnagram.cpp.o CMakeFiles/ds_algo.dir/Week1/ValidParenthesis.cpp.o CMakeFiles/ds_algo.dir/Week1/IOPractice.cpp.o CMakeFiles/ds_algo.dir/Week2/TopKFrequent.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -mmacosx-version-min=11.6
   OBJECT_DIR = CMakeFiles/ds_algo.dir
   POST_BUILD = :

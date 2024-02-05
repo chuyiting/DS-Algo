@@ -1,10 +1,11 @@
 # ninja log v5
-2	798	1690449501729126469	CMakeFiles/ds_algo.dir/main.cpp.o	4bcac66820268ce9
-798	890	1690449501823880273	ds_algo	5b437e6479492c2e
-4	571	1690449425948159340	CMakeFiles/ds_algo.dir/Week1/ValidAnagram.cpp.o	77671ef3e27a9a46
-3	567	1690448569013213531	CMakeFiles/ds_algo.dir/Week1/TwoSum.cpp.o	d4e54ec20ab6390e
-4	786	1690451182789256589	CMakeFiles/ds_algo.dir/Week1/TwoSum.cpp.o	d4e54ec20ab6390e
+3	1398	1690783242160989976	CMakeFiles/ds_algo.dir/main.cpp.o	4bcac66820268ce9
+3	1418	1690783242184406174	CMakeFiles/ds_algo.dir/Week1/ValidParenthesis.cpp.o	4391bab34a3cba7
+1418	1558	1690783242327096926	ds_algo	2c7f856430a272a1
 5	819	1690451182823398963	CMakeFiles/ds_algo.dir/Week1/ValidAnagram.cpp.o	77671ef3e27a9a46
-4	932	1690451182936709431	CMakeFiles/ds_algo.dir/main.cpp.o	4bcac66820268ce9
-5	951	1690451182956074591	CMakeFiles/ds_algo.dir/Week1/ValidParenthesis.cpp.o	4391bab34a3cba7
-951	1051	1690451183058390428	ds_algo	8b3f906593801a0d
+4	786	1690451182789256589	CMakeFiles/ds_algo.dir/Week1/TwoSum.cpp.o	d4e54ec20ab6390e
+3	1343	1690783242103213023	CMakeFiles/ds_algo.dir/Week1/IOPractice.cpp.o	51e27dfa9cf3a112
+3	731	1691474496009919776	CMakeFiles/ds_algo.dir/Week1/IOPractice.cpp.o	51e27dfa9cf3a112
+3	784	1691474496067691935	CMakeFiles/ds_algo.dir/Week2/TopKFrequent.cpp.o	20eea177aae0104
+3	869	1691474496153094324	CMakeFiles/ds_algo.dir/main.cpp.o	4bcac66820268ce9
+869	1275	1691474496561145608	ds_algo	5c0fca1b8fd4fd27

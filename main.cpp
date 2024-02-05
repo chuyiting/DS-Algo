@@ -2,6 +2,8 @@
 #include "Week1/TwoSum.h"
 #include "Week1/ValidAnagram.h"
 #include "Week1/ValidParenthesis.h"
+#include "Week1/IOPractice.h"
+#include "Week2/TopKFrequent.h"
 #include <vector>
 #include <string>
 
@@ -43,9 +45,22 @@ void testValidParenthesis() {
 
 }
 
+void testIOPractice() {
+    auto ioPractice = std::make_shared<IOPractice>();
+    ioPractice->outputPractice();
+}
+
+void testTopKFrequent() {
+    auto topKFrequent = std::make_shared<TopKFrequent>();
+    std::vector<int> input1 = {1, 1, 1, 1, 2, 2, 2, 3};
+    int k1 = 2;
+    print(topKFrequent->topKFrequent1(input1, k1));
+}
+
 int main() {
 //    testTwoSum();
 //    testValidAnagram();
-    testValidParenthesis();
+//    testValidParenthesis();
+    testTopKFrequent();
     return 0;
 }
