@@ -21,16 +21,15 @@ ListNode*  ReverseLinkedList::reverseList(ListNode* head) {
     return curr;
 }
 
-ListNode*  ReverseLinkedList::reverseListreRecursive(ListNode* head) {
-    ListNode *prev = nullptr;
-    ListNode *curr = head;
-    
-    while (curr != nullptr) {
-        ListNode *forward = curr->next;
-        curr -> next = prev;
-        prev = curr;
-        curr = forward;
+ListNode*  ReverseLinkedList::reverseListRecursive(ListNode* head) {
+    if (head == nullptr || head->next == nullptr) {
+        return head;
     }
     
-    return curr;
+    ListNode* next = head->next;
+    ListNode* ans = reverseList(next);
+    next->next = head;
+    head->next = nullptr;
+    
+    return ans;
 }

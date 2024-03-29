@@ -9,6 +9,7 @@
 #define FindMinimumInRotatedSortedArray_hpp
 
 #include <stdio.h>
+#include <vector>
 
 class FindMinimumInRotatedSortedArray {
 public:

@@ -6,7 +6,6 @@
 //
 
 #include "FindMinimumInRotatedSortedArray.hpp"
-#include <vector>
 
 int FindMinimumInRotatedSortedArray::findMin(std::vector<int>& nums) {
     if (nums[0] <= nums[nums.size()-1]) {
