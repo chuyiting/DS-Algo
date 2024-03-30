@@ -50,6 +50,9 @@
 		4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BC82BB6BD8C00EB0989 /* ContainsDuplicate.cpp */; };
 		4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BCB2BB6BEA600EB0989 /* ValidSudoku.cpp */; };
 		4FC98BD02BB6C66200EB0989 /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BCE2BB6C66200EB0989 /* LongestConsecutiveSequence.cpp */; };
+		4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BD12BB7A33B00EB0989 /* ValidPalindrome.cpp */; };
+		4FC98BD62BB7B81B00EB0989 /* TwoSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BD42BB7B81B00EB0989 /* TwoSumII.cpp */; };
+		4FC98BD92BB7B89000EB0989 /* TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BD72BB7B89000EB0989 /* TrappingRainWater.cpp */; };
 		4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FE4F8D62B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp */; };
 		7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40F6998EA10346A2BABEF5AB /* TopKFrequent.cpp */; };
 		9337A884C53F48EE847CCD02 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B378BD2F6A14EC4A9D22741 /* MergeIntervals.cpp */; };
@@ -113,6 +116,12 @@
 		4FC98BCC2BB6BEA600EB0989 /* ValidSudoku.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ValidSudoku.hpp; path = PGWeek1/ValidSudoku.hpp; sourceTree = "<group>"; };
 		4FC98BCE2BB6C66200EB0989 /* LongestConsecutiveSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LongestConsecutiveSequence.cpp; path = PGWeek1/LongestConsecutiveSequence.cpp; sourceTree = "<group>"; };
 		4FC98BCF2BB6C66200EB0989 /* LongestConsecutiveSequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LongestConsecutiveSequence.hpp; path = PGWeek1/LongestConsecutiveSequence.hpp; sourceTree = "<group>"; };
+		4FC98BD12BB7A33B00EB0989 /* ValidPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ValidPalindrome.cpp; path = PGWeek1/ValidPalindrome.cpp; sourceTree = "<group>"; };
+		4FC98BD22BB7A33B00EB0989 /* ValidPalindrome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ValidPalindrome.hpp; path = PGWeek1/ValidPalindrome.hpp; sourceTree = "<group>"; };
+		4FC98BD42BB7B81B00EB0989 /* TwoSumII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TwoSumII.cpp; path = PGWeek1/TwoSumII.cpp; sourceTree = "<group>"; };
+		4FC98BD52BB7B81B00EB0989 /* TwoSumII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TwoSumII.hpp; path = PGWeek1/TwoSumII.hpp; sourceTree = "<group>"; };
+		4FC98BD72BB7B89000EB0989 /* TrappingRainWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TrappingRainWater.cpp; path = PGWeek1/TrappingRainWater.cpp; sourceTree = "<group>"; };
+		4FC98BD82BB7B89000EB0989 /* TrappingRainWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TrappingRainWater.hpp; path = PGWeek1/TrappingRainWater.hpp; sourceTree = "<group>"; };
 		4FE4F8D62B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ProductOfArrayExceptSelf.cpp; path = Week3/ProductOfArrayExceptSelf.cpp; sourceTree = "<group>"; };
 		4FE4F8D72B77A9C50071AE13 /* ProductOfArrayExceptSelf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ProductOfArrayExceptSelf.hpp; path = Week3/ProductOfArrayExceptSelf.hpp; sourceTree = "<group>"; };
 		5671FF92078F4470A75D0ABD /* FindTheDuplicateNumber.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FindTheDuplicateNumber.hpp; path = Week3/FindTheDuplicateNumber.hpp; sourceTree = SOURCE_ROOT; };
@@ -204,6 +213,9 @@
 				4FC98BCB2BB6BEA600EB0989 /* ValidSudoku.cpp */,
 				30C1D520E93E49C0AD183B69 /* main.cpp */,
 				4FC98BCE2BB6C66200EB0989 /* LongestConsecutiveSequence.cpp */,
+				4FC98BD12BB7A33B00EB0989 /* ValidPalindrome.cpp */,
+				4FC98BD42BB7B81B00EB0989 /* TwoSumII.cpp */,
+				4FC98BD72BB7B89000EB0989 /* TrappingRainWater.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -246,6 +258,9 @@
 				4FA184472B8D849B003A1724 /* FindMinimumInRotatedSortedArray.hpp */,
 				4FC98BCC2BB6BEA600EB0989 /* ValidSudoku.hpp */,
 				4FC98BCF2BB6C66200EB0989 /* LongestConsecutiveSequence.hpp */,
+				4FC98BD22BB7A33B00EB0989 /* ValidPalindrome.hpp */,
+				4FC98BD52BB7B81B00EB0989 /* TwoSumII.hpp */,
+				4FC98BD82BB7B89000EB0989 /* TrappingRainWater.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -345,11 +360,14 @@
 				4FA184452B8D7505003A1724 /* ContainWithMostWater.cpp in Sources */,
 				4FA1843C2B7F4999003A1724 /* SearchInRotatedSortedArray.cpp in Sources */,
 				4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */,
+				4FC98BD92BB7B89000EB0989 /* TrappingRainWater.cpp in Sources */,
+				4FC98BD62BB7B81B00EB0989 /* TwoSumII.cpp in Sources */,
 				4FA184422B8C8FC8003A1724 /* LinkedListCycle.cpp in Sources */,
 				4FA1843F2B8C7B1B003A1724 /* ReverseLinkedList.cpp in Sources */,
 				4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */,
 				0A2B61F30C2C4005A30017E9 /* ValidParenthesis.cpp in Sources */,
 				7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */,
+				4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */,
 				FC2F52DEAD4A4AE287FD05F9 /* ContinuousSubarraySum.cpp in Sources */,
 				4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */,
 				4FA184482B8D849B003A1724 /* FindMinimumInRotatedSortedArray.cpp in Sources */,
