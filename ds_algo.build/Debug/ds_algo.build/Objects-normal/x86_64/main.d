@@ -10,4 +10,5 @@ dependencies: /Users/eddychu/Desktop/ds_algo/main.cpp \
   /Users/eddychu/Desktop/ds_algo/Week3/MergeIntervals.hpp \
   /Users/eddychu/Desktop/ds_algo/Week3/ProductOfArrayExceptSelf.hpp \
   /Users/eddychu/Desktop/ds_algo/Week3/MaximumProductSubarray.hpp \
-  /Users/eddychu/Desktop/ds_algo/Week3/SearchInRotatedSortedArray.hpp
+  /Users/eddychu/Desktop/ds_algo/Week3/SearchInRotatedSortedArray.hpp \
+  /Users/eddychu/Desktop/ds_algo/PGWeek1/LongestSubstringWithoutRepeatingChar.hpp

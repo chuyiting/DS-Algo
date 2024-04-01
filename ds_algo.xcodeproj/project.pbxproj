@@ -53,6 +53,10 @@
 		4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BD12BB7A33B00EB0989 /* ValidPalindrome.cpp */; };
 		4FC98BD62BB7B81B00EB0989 /* TwoSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BD42BB7B81B00EB0989 /* TwoSumII.cpp */; };
 		4FC98BD92BB7B89000EB0989 /* TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BD72BB7B89000EB0989 /* TrappingRainWater.cpp */; };
+		4FC98BDC2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BDA2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.cpp */; };
+		4FC98BE22BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BE02BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.cpp */; };
+		4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BE62BB986E200EB0989 /* LongestCharacterReplacement.cpp */; };
+		4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BE92BBA547000EB0989 /* PermutationInString.cpp */; };
 		4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FE4F8D62B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp */; };
 		7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40F6998EA10346A2BABEF5AB /* TopKFrequent.cpp */; };
 		9337A884C53F48EE847CCD02 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B378BD2F6A14EC4A9D22741 /* MergeIntervals.cpp */; };
@@ -122,6 +126,14 @@
 		4FC98BD52BB7B81B00EB0989 /* TwoSumII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TwoSumII.hpp; path = PGWeek1/TwoSumII.hpp; sourceTree = "<group>"; };
 		4FC98BD72BB7B89000EB0989 /* TrappingRainWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TrappingRainWater.cpp; path = PGWeek1/TrappingRainWater.cpp; sourceTree = "<group>"; };
 		4FC98BD82BB7B89000EB0989 /* TrappingRainWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TrappingRainWater.hpp; path = PGWeek1/TrappingRainWater.hpp; sourceTree = "<group>"; };
+		4FC98BDA2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BestTimeToBuyAndSellStock.cpp; path = PGWeek1/BestTimeToBuyAndSellStock.cpp; sourceTree = "<group>"; };
+		4FC98BDB2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BestTimeToBuyAndSellStock.hpp; path = PGWeek1/BestTimeToBuyAndSellStock.hpp; sourceTree = "<group>"; };
+		4FC98BE02BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LongestSubstringWithoutRepeatingChar.cpp; path = PGWeek1/LongestSubstringWithoutRepeatingChar.cpp; sourceTree = "<group>"; };
+		4FC98BE12BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LongestSubstringWithoutRepeatingChar.hpp; path = PGWeek1/LongestSubstringWithoutRepeatingChar.hpp; sourceTree = "<group>"; };
+		4FC98BE62BB986E200EB0989 /* LongestCharacterReplacement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LongestCharacterReplacement.cpp; path = PGWeek1/LongestCharacterReplacement.cpp; sourceTree = "<group>"; };
+		4FC98BE72BB986E200EB0989 /* LongestCharacterReplacement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LongestCharacterReplacement.hpp; path = PGWeek1/LongestCharacterReplacement.hpp; sourceTree = "<group>"; };
+		4FC98BE92BBA547000EB0989 /* PermutationInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PermutationInString.cpp; path = PGWeek2/PermutationInString.cpp; sourceTree = "<group>"; };
+		4FC98BEA2BBA547000EB0989 /* PermutationInString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PermutationInString.hpp; path = PGWeek2/PermutationInString.hpp; sourceTree = "<group>"; };
 		4FE4F8D62B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ProductOfArrayExceptSelf.cpp; path = Week3/ProductOfArrayExceptSelf.cpp; sourceTree = "<group>"; };
 		4FE4F8D72B77A9C50071AE13 /* ProductOfArrayExceptSelf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ProductOfArrayExceptSelf.hpp; path = Week3/ProductOfArrayExceptSelf.hpp; sourceTree = "<group>"; };
 		5671FF92078F4470A75D0ABD /* FindTheDuplicateNumber.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FindTheDuplicateNumber.hpp; path = Week3/FindTheDuplicateNumber.hpp; sourceTree = SOURCE_ROOT; };
@@ -216,6 +228,11 @@
 				4FC98BD12BB7A33B00EB0989 /* ValidPalindrome.cpp */,
 				4FC98BD42BB7B81B00EB0989 /* TwoSumII.cpp */,
 				4FC98BD72BB7B89000EB0989 /* TrappingRainWater.cpp */,
+				4FC98BDA2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.cpp */,
+				4FC98BE02BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.cpp */,
+				4FC98BE62BB986E200EB0989 /* LongestCharacterReplacement.cpp */,
+				4FC98BE92BBA547000EB0989 /* PermutationInString.cpp */,
+				4FC98BEA2BBA547000EB0989 /* PermutationInString.hpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -261,6 +278,9 @@
 				4FC98BD22BB7A33B00EB0989 /* ValidPalindrome.hpp */,
 				4FC98BD52BB7B81B00EB0989 /* TwoSumII.hpp */,
 				4FC98BD82BB7B89000EB0989 /* TrappingRainWater.hpp */,
+				4FC98BDB2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.hpp */,
+				4FC98BE12BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.hpp */,
+				4FC98BE72BB986E200EB0989 /* LongestCharacterReplacement.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -355,11 +375,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				196B06F5D80946218F184750 /* IOPractice.cpp in Sources */,
+				4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */,
 				47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */,
 				332AD4EC90CA4917A115E8D8 /* ValidAnagram.cpp in Sources */,
 				4FA184452B8D7505003A1724 /* ContainWithMostWater.cpp in Sources */,
 				4FA1843C2B7F4999003A1724 /* SearchInRotatedSortedArray.cpp in Sources */,
 				4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */,
+				4FC98BE22BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.cpp in Sources */,
 				4FC98BD92BB7B89000EB0989 /* TrappingRainWater.cpp in Sources */,
 				4FC98BD62BB7B81B00EB0989 /* TwoSumII.cpp in Sources */,
 				4FA184422B8C8FC8003A1724 /* LinkedListCycle.cpp in Sources */,
@@ -367,6 +389,7 @@
 				4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */,
 				0A2B61F30C2C4005A30017E9 /* ValidParenthesis.cpp in Sources */,
 				7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */,
+				4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */,
 				4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */,
 				FC2F52DEAD4A4AE287FD05F9 /* ContinuousSubarraySum.cpp in Sources */,
 				4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */,
@@ -377,6 +400,7 @@
 				4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */,
 				4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */,
 				4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */,
+				4FC98BDC2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				4FC98BD02BB6C66200EB0989 /* LongestConsecutiveSequence.cpp in Sources */,
 				FA1D09BC0B644EFE8667A676 /* main.cpp in Sources */,
 			);

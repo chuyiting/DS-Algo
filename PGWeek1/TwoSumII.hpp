@@ -14,5 +14,6 @@
 class TwoSumII {
 public:
     std::vector<int> twoSum(std::vector<int>& numbers, int target);
-}
+};
+
 #endif /* TwoSumII_hpp */

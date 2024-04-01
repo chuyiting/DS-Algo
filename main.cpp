@@ -11,6 +11,7 @@
 #include "Week3/ProductOfArrayExceptSelf.hpp"
 #include "Week3/MaximumProductSubarray.hpp"
 #include "Week3/SearchInRotatedSortedArray.hpp"
+#include "PGWeek1/LongestSubstringWithoutRepeatingChar.hpp"
 #include <vector>
 #include <string>
 
@@ -126,12 +127,19 @@ void testSearchInRotatedSortedArray() {
     
 }
 
+void testlongestSubstringWithoutRepeatingChar() {
+    auto longestSubstringWithoutRepeatingChar = std::make_shared<LongestSubstringWithoutRepeatingChar>();
+    std::string input = "abcabcbb";
+    std::cout << longestSubstringWithoutRepeatingChar -> lengthOfLongestSubstring(input) << std::endl;
+}
+
 int main() {
 //    testTwoSum();
 //    testValidAnagram();
 //    testValidParenthesis();
 //    testProductExceptSelf();
 //    testMaximumProductSubarray();
-    testSearchInRotatedSortedArray();
+//    testSearchInRotatedSortedArray();
+    testlongestSubstringWithoutRepeatingChar();
     return 0;
 }

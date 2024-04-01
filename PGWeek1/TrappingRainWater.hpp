@@ -16,4 +16,5 @@ public:
     int trap(std::vector<int>& height);
     int trap2(std::vector<int>& height);
 };
+
 #endif /* TrappingRainWater_hpp */
