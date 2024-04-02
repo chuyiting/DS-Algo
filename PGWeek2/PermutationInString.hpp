@@ -9,5 +9,11 @@
 #define PermutationInString_hpp
 
 #include <stdio.h>
+#include <string>
+
+class PermutationInString {
+public:
+    bool checkInclusion(std::string s1, std::string s2);
+}
 
 #endif /* PermutationInString_hpp */

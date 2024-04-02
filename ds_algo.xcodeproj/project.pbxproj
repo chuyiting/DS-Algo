@@ -47,6 +47,8 @@
 		4FA184422B8C8FC8003A1724 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184402B8C8FC8003A1724 /* LinkedListCycle.cpp */; };
 		4FA184452B8D7505003A1724 /* ContainWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184432B8D7505003A1724 /* ContainWithMostWater.cpp */; };
 		4FA184482B8D849B003A1724 /* FindMinimumInRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184462B8D849B003A1724 /* FindMinimumInRotatedSortedArray.cpp */; };
+		4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC332AB2BBA778600BE85DF /* MiniumWindowSubstring.cpp */; };
+		4FC332B02BBA7DB700BE85DF /* SlidingWindowMaximum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC332AE2BBA7DB700BE85DF /* SlidingWindowMaximum.cpp */; };
 		4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BC82BB6BD8C00EB0989 /* ContainsDuplicate.cpp */; };
 		4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BCB2BB6BEA600EB0989 /* ValidSudoku.cpp */; };
 		4FC98BD02BB6C66200EB0989 /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BCE2BB6C66200EB0989 /* LongestConsecutiveSequence.cpp */; };
@@ -114,6 +116,10 @@
 		4FA184442B8D7505003A1724 /* ContainWithMostWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ContainWithMostWater.hpp; path = Week3/ContainWithMostWater.hpp; sourceTree = "<group>"; };
 		4FA184462B8D849B003A1724 /* FindMinimumInRotatedSortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FindMinimumInRotatedSortedArray.cpp; path = Week3/FindMinimumInRotatedSortedArray.cpp; sourceTree = "<group>"; };
 		4FA184472B8D849B003A1724 /* FindMinimumInRotatedSortedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = FindMinimumInRotatedSortedArray.hpp; path = Week3/FindMinimumInRotatedSortedArray.hpp; sourceTree = "<group>"; };
+		4FC332AB2BBA778600BE85DF /* MiniumWindowSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MiniumWindowSubstring.cpp; path = PGWeek2/MiniumWindowSubstring.cpp; sourceTree = "<group>"; };
+		4FC332AC2BBA778600BE85DF /* MiniumWindowSubstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MiniumWindowSubstring.hpp; path = PGWeek2/MiniumWindowSubstring.hpp; sourceTree = "<group>"; };
+		4FC332AE2BBA7DB700BE85DF /* SlidingWindowMaximum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SlidingWindowMaximum.cpp; path = PGWeek2/SlidingWindowMaximum.cpp; sourceTree = "<group>"; };
+		4FC332AF2BBA7DB700BE85DF /* SlidingWindowMaximum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SlidingWindowMaximum.hpp; path = PGWeek2/SlidingWindowMaximum.hpp; sourceTree = "<group>"; };
 		4FC98BC82BB6BD8C00EB0989 /* ContainsDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ContainsDuplicate.cpp; path = PGWeek1/ContainsDuplicate.cpp; sourceTree = "<group>"; };
 		4FC98BC92BB6BD8C00EB0989 /* ContainsDuplicate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ContainsDuplicate.hpp; path = PGWeek1/ContainsDuplicate.hpp; sourceTree = "<group>"; };
 		4FC98BCB2BB6BEA600EB0989 /* ValidSudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ValidSudoku.cpp; path = PGWeek1/ValidSudoku.cpp; sourceTree = "<group>"; };
@@ -232,7 +238,8 @@
 				4FC98BE02BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.cpp */,
 				4FC98BE62BB986E200EB0989 /* LongestCharacterReplacement.cpp */,
 				4FC98BE92BBA547000EB0989 /* PermutationInString.cpp */,
-				4FC98BEA2BBA547000EB0989 /* PermutationInString.hpp */,
+				4FC332AB2BBA778600BE85DF /* MiniumWindowSubstring.cpp */,
+				4FC332AE2BBA7DB700BE85DF /* SlidingWindowMaximum.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -281,6 +288,9 @@
 				4FC98BDB2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.hpp */,
 				4FC98BE12BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.hpp */,
 				4FC98BE72BB986E200EB0989 /* LongestCharacterReplacement.hpp */,
+				4FC98BEA2BBA547000EB0989 /* PermutationInString.hpp */,
+				4FC332AC2BBA778600BE85DF /* MiniumWindowSubstring.hpp */,
+				4FC332AF2BBA7DB700BE85DF /* SlidingWindowMaximum.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -374,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC332B02BBA7DB700BE85DF /* SlidingWindowMaximum.cpp in Sources */,
 				196B06F5D80946218F184750 /* IOPractice.cpp in Sources */,
 				4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */,
 				47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */,
@@ -390,6 +401,7 @@
 				0A2B61F30C2C4005A30017E9 /* ValidParenthesis.cpp in Sources */,
 				7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */,
 				4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */,
+				4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */,
 				4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */,
 				FC2F52DEAD4A4AE287FD05F9 /* ContinuousSubarraySum.cpp in Sources */,
 				4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */,
