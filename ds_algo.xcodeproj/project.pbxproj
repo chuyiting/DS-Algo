@@ -39,6 +39,7 @@
 		332AD4EC90CA4917A115E8D8 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7D0916EBC3749278C9ED33B /* ValidAnagram.cpp */; };
 		428F95FE2ADD439D927E1ECA /* SubarraySumEqualsK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2BC018446FA4CF4BE0B0EDD /* SubarraySumEqualsK.cpp */; };
 		47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98E8171E8BD04B56A4568012 /* TwoSum.cpp */; };
+		4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */; };
 		4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */; };
 		4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */; };
 		4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184372B7F3813003A1724 /* MaximumProductSubarray.cpp */; };
@@ -49,6 +50,7 @@
 		4FA184482B8D849B003A1724 /* FindMinimumInRotatedSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184462B8D849B003A1724 /* FindMinimumInRotatedSortedArray.cpp */; };
 		4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC332AB2BBA778600BE85DF /* MiniumWindowSubstring.cpp */; };
 		4FC332B02BBA7DB700BE85DF /* SlidingWindowMaximum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC332AE2BBA7DB700BE85DF /* SlidingWindowMaximum.cpp */; };
+		4FC332B62BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC332B42BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp */; };
 		4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BC82BB6BD8C00EB0989 /* ContainsDuplicate.cpp */; };
 		4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BCB2BB6BEA600EB0989 /* ValidSudoku.cpp */; };
 		4FC98BD02BB6C66200EB0989 /* LongestConsecutiveSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FC98BCE2BB6C66200EB0989 /* LongestConsecutiveSequence.cpp */; };
@@ -100,6 +102,8 @@
 		3B25BED4C1CC46438B7DEC2C /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		40F6998EA10346A2BABEF5AB /* TopKFrequent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TopKFrequent.cpp; path = Week2/TopKFrequent.cpp; sourceTree = SOURCE_ROOT; };
 		4B1AC0698941417AA38AD867 /* ContinuousSubarraySum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ContinuousSubarraySum.cpp; path = Week3/ContinuousSubarraySum.cpp; sourceTree = SOURCE_ROOT; };
+		4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParanthesis.cpp; path = PGWeek2/GenerateParanthesis.cpp; sourceTree = "<group>"; };
+		4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GenerateParanthesis.hpp; path = PGWeek2/GenerateParanthesis.hpp; sourceTree = "<group>"; };
 		4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ThreeSum.cpp; path = Week3/ThreeSum.cpp; sourceTree = "<group>"; };
 		4FA184322B7D9DA0003A1724 /* ThreeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ThreeSum.hpp; path = Week3/ThreeSum.hpp; sourceTree = "<group>"; };
 		4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GroupAnagrams.cpp; path = Week3/GroupAnagrams.cpp; sourceTree = "<group>"; };
@@ -120,6 +124,9 @@
 		4FC332AC2BBA778600BE85DF /* MiniumWindowSubstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MiniumWindowSubstring.hpp; path = PGWeek2/MiniumWindowSubstring.hpp; sourceTree = "<group>"; };
 		4FC332AE2BBA7DB700BE85DF /* SlidingWindowMaximum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SlidingWindowMaximum.cpp; path = PGWeek2/SlidingWindowMaximum.cpp; sourceTree = "<group>"; };
 		4FC332AF2BBA7DB700BE85DF /* SlidingWindowMaximum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SlidingWindowMaximum.hpp; path = PGWeek2/SlidingWindowMaximum.hpp; sourceTree = "<group>"; };
+		4FC332B22BBBEF2200BE85DF /* MinStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MinStack.hpp; path = PGWeek2/MinStack.hpp; sourceTree = "<group>"; };
+		4FC332B42BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = EvaluateReversePolishNotation.cpp; path = PGWeek2/EvaluateReversePolishNotation.cpp; sourceTree = "<group>"; };
+		4FC332B52BBBF66B00BE85DF /* EvaluateReversePolishNotation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = EvaluateReversePolishNotation.hpp; path = PGWeek2/EvaluateReversePolishNotation.hpp; sourceTree = "<group>"; };
 		4FC98BC82BB6BD8C00EB0989 /* ContainsDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ContainsDuplicate.cpp; path = PGWeek1/ContainsDuplicate.cpp; sourceTree = "<group>"; };
 		4FC98BC92BB6BD8C00EB0989 /* ContainsDuplicate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ContainsDuplicate.hpp; path = PGWeek1/ContainsDuplicate.hpp; sourceTree = "<group>"; };
 		4FC98BCB2BB6BEA600EB0989 /* ValidSudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ValidSudoku.cpp; path = PGWeek1/ValidSudoku.cpp; sourceTree = "<group>"; };
@@ -240,6 +247,8 @@
 				4FC98BE92BBA547000EB0989 /* PermutationInString.cpp */,
 				4FC332AB2BBA778600BE85DF /* MiniumWindowSubstring.cpp */,
 				4FC332AE2BBA7DB700BE85DF /* SlidingWindowMaximum.cpp */,
+				4FC332B42BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp */,
+				4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -291,6 +300,9 @@
 				4FC98BEA2BBA547000EB0989 /* PermutationInString.hpp */,
 				4FC332AC2BBA778600BE85DF /* MiniumWindowSubstring.hpp */,
 				4FC332AF2BBA7DB700BE85DF /* SlidingWindowMaximum.hpp */,
+				4FC332B22BBBEF2200BE85DF /* MinStack.hpp */,
+				4FC332B52BBBF66B00BE85DF /* EvaluateReversePolishNotation.hpp */,
+				4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -384,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC332B62BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp in Sources */,
 				4FC332B02BBA7DB700BE85DF /* SlidingWindowMaximum.cpp in Sources */,
 				196B06F5D80946218F184750 /* IOPractice.cpp in Sources */,
 				4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */,
@@ -396,6 +409,7 @@
 				4FC98BD92BB7B89000EB0989 /* TrappingRainWater.cpp in Sources */,
 				4FC98BD62BB7B81B00EB0989 /* TwoSumII.cpp in Sources */,
 				4FA184422B8C8FC8003A1724 /* LinkedListCycle.cpp in Sources */,
+				4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */,
 				4FA1843F2B8C7B1B003A1724 /* ReverseLinkedList.cpp in Sources */,
 				4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */,
 				0A2B61F30C2C4005A30017E9 /* ValidParenthesis.cpp in Sources */,

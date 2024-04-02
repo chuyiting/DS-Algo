@@ -14,6 +14,6 @@
 class PermutationInString {
 public:
     bool checkInclusion(std::string s1, std::string s2);
-}
+};
 
 #endif /* PermutationInString_hpp */

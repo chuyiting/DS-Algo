@@ -12,6 +12,7 @@
 #include "Week3/MaximumProductSubarray.hpp"
 #include "Week3/SearchInRotatedSortedArray.hpp"
 #include "PGWeek1/LongestSubstringWithoutRepeatingChar.hpp"
+#include "PGWeek2/EvaluateReversePolishNotation.hpp"
 #include <vector>
 #include <string>
 
@@ -133,6 +134,12 @@ void testlongestSubstringWithoutRepeatingChar() {
     std::cout << longestSubstringWithoutRepeatingChar -> lengthOfLongestSubstring(input) << std::endl;
 }
 
+void testEvaluateReversePolishNotation() {
+    auto evaluateReversePolishNotation = std::make_shared<EvaluateReversePolishNotation>();
+    std::vector<std::string> input {"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
+    std::cout << evaluateReversePolishNotation->evalRPN(input) << std::endl;
+}
+
 int main() {
 //    testTwoSum();
 //    testValidAnagram();
@@ -140,6 +147,7 @@ int main() {
 //    testProductExceptSelf();
 //    testMaximumProductSubarray();
 //    testSearchInRotatedSortedArray();
-    testlongestSubstringWithoutRepeatingChar();
+//    testlongestSubstringWithoutRepeatingChar();
+    testEvaluateReversePolishNotation();
     return 0;
 }
