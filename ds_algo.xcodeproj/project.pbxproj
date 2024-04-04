@@ -40,6 +40,9 @@
 		428F95FE2ADD439D927E1ECA /* SubarraySumEqualsK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2BC018446FA4CF4BE0B0EDD /* SubarraySumEqualsK.cpp */; };
 		47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98E8171E8BD04B56A4568012 /* TwoSum.cpp */; };
 		4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */; };
+		4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */; };
+		4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE32BBE630600D4047D /* CarFleet.cpp */; };
+		4F8B3BE82BBEA3E600D4047D /* LargestRectangleInHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE62BBEA3E600D4047D /* LargestRectangleInHistogram.cpp */; };
 		4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */; };
 		4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */; };
 		4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184372B7F3813003A1724 /* MaximumProductSubarray.cpp */; };
@@ -104,6 +107,12 @@
 		4B1AC0698941417AA38AD867 /* ContinuousSubarraySum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ContinuousSubarraySum.cpp; path = Week3/ContinuousSubarraySum.cpp; sourceTree = SOURCE_ROOT; };
 		4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParanthesis.cpp; path = PGWeek2/GenerateParanthesis.cpp; sourceTree = "<group>"; };
 		4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GenerateParanthesis.hpp; path = PGWeek2/GenerateParanthesis.hpp; sourceTree = "<group>"; };
+		4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DailyTemperature.cpp; path = PGWeek2/DailyTemperature.cpp; sourceTree = "<group>"; };
+		4F8B3BE12BBE595E00D4047D /* DailyTemperature.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DailyTemperature.hpp; path = PGWeek2/DailyTemperature.hpp; sourceTree = "<group>"; };
+		4F8B3BE32BBE630600D4047D /* CarFleet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CarFleet.cpp; path = PGWeek2/CarFleet.cpp; sourceTree = "<group>"; };
+		4F8B3BE42BBE630600D4047D /* CarFleet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CarFleet.hpp; path = PGWeek2/CarFleet.hpp; sourceTree = "<group>"; };
+		4F8B3BE62BBEA3E600D4047D /* LargestRectangleInHistogram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LargestRectangleInHistogram.cpp; path = PGWeek2/LargestRectangleInHistogram.cpp; sourceTree = "<group>"; };
+		4F8B3BE72BBEA3E600D4047D /* LargestRectangleInHistogram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LargestRectangleInHistogram.hpp; path = PGWeek2/LargestRectangleInHistogram.hpp; sourceTree = "<group>"; };
 		4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ThreeSum.cpp; path = Week3/ThreeSum.cpp; sourceTree = "<group>"; };
 		4FA184322B7D9DA0003A1724 /* ThreeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ThreeSum.hpp; path = Week3/ThreeSum.hpp; sourceTree = "<group>"; };
 		4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GroupAnagrams.cpp; path = Week3/GroupAnagrams.cpp; sourceTree = "<group>"; };
@@ -249,6 +258,9 @@
 				4FC332AE2BBA7DB700BE85DF /* SlidingWindowMaximum.cpp */,
 				4FC332B42BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp */,
 				4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */,
+				4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */,
+				4F8B3BE32BBE630600D4047D /* CarFleet.cpp */,
+				4F8B3BE62BBEA3E600D4047D /* LargestRectangleInHistogram.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -303,6 +315,9 @@
 				4FC332B22BBBEF2200BE85DF /* MinStack.hpp */,
 				4FC332B52BBBF66B00BE85DF /* EvaluateReversePolishNotation.hpp */,
 				4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */,
+				4F8B3BE72BBEA3E600D4047D /* LargestRectangleInHistogram.hpp */,
+				4F8B3BE42BBE630600D4047D /* CarFleet.hpp */,
+				4F8B3BE12BBE595E00D4047D /* DailyTemperature.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -401,6 +416,7 @@
 				196B06F5D80946218F184750 /* IOPractice.cpp in Sources */,
 				4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */,
 				47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */,
+				4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */,
 				332AD4EC90CA4917A115E8D8 /* ValidAnagram.cpp in Sources */,
 				4FA184452B8D7505003A1724 /* ContainWithMostWater.cpp in Sources */,
 				4FA1843C2B7F4999003A1724 /* SearchInRotatedSortedArray.cpp in Sources */,
@@ -414,10 +430,12 @@
 				4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */,
 				0A2B61F30C2C4005A30017E9 /* ValidParenthesis.cpp in Sources */,
 				7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */,
+				4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */,
 				4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */,
 				4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */,
 				4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */,
 				FC2F52DEAD4A4AE287FD05F9 /* ContinuousSubarraySum.cpp in Sources */,
+				4F8B3BE82BBEA3E600D4047D /* LargestRectangleInHistogram.cpp in Sources */,
 				4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */,
 				4FA184482B8D849B003A1724 /* FindMinimumInRotatedSortedArray.cpp in Sources */,
 				F0FC3B8252544AECBE2EA7A8 /* FindTheDuplicateNumber.cpp in Sources */,
