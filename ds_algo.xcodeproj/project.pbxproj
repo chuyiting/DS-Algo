@@ -43,6 +43,9 @@
 		4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */; };
 		4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE32BBE630600D4047D /* CarFleet.cpp */; };
 		4F8B3BE82BBEA3E600D4047D /* LargestRectangleInHistogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE62BBEA3E600D4047D /* LargestRectangleInHistogram.cpp */; };
+		4F8B3BEB2BBFBFCB00D4047D /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE92BBFBFCB00D4047D /* BinarySearch.cpp */; };
+		4F8B3BEE2BBFCA6000D4047D /* SearchA2DMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BEC2BBFCA6000D4047D /* SearchA2DMatrix.cpp */; };
+		4F8B3BF12BBFCD1900D4047D /* KokoEatingBananas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BEF2BBFCD1900D4047D /* KokoEatingBananas.cpp */; };
 		4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */; };
 		4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */; };
 		4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184372B7F3813003A1724 /* MaximumProductSubarray.cpp */; };
@@ -113,6 +116,12 @@
 		4F8B3BE42BBE630600D4047D /* CarFleet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CarFleet.hpp; path = PGWeek2/CarFleet.hpp; sourceTree = "<group>"; };
 		4F8B3BE62BBEA3E600D4047D /* LargestRectangleInHistogram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LargestRectangleInHistogram.cpp; path = PGWeek2/LargestRectangleInHistogram.cpp; sourceTree = "<group>"; };
 		4F8B3BE72BBEA3E600D4047D /* LargestRectangleInHistogram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LargestRectangleInHistogram.hpp; path = PGWeek2/LargestRectangleInHistogram.hpp; sourceTree = "<group>"; };
+		4F8B3BE92BBFBFCB00D4047D /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinarySearch.cpp; path = PGWeek2/BinarySearch.cpp; sourceTree = "<group>"; };
+		4F8B3BEA2BBFBFCB00D4047D /* BinarySearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BinarySearch.hpp; path = PGWeek2/BinarySearch.hpp; sourceTree = "<group>"; };
+		4F8B3BEC2BBFCA6000D4047D /* SearchA2DMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SearchA2DMatrix.cpp; path = PGWeek2/SearchA2DMatrix.cpp; sourceTree = "<group>"; };
+		4F8B3BED2BBFCA6000D4047D /* SearchA2DMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SearchA2DMatrix.hpp; path = PGWeek2/SearchA2DMatrix.hpp; sourceTree = "<group>"; };
+		4F8B3BEF2BBFCD1900D4047D /* KokoEatingBananas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = KokoEatingBananas.cpp; path = PGWeek2/KokoEatingBananas.cpp; sourceTree = "<group>"; };
+		4F8B3BF02BBFCD1900D4047D /* KokoEatingBananas.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = KokoEatingBananas.hpp; path = PGWeek2/KokoEatingBananas.hpp; sourceTree = "<group>"; };
 		4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ThreeSum.cpp; path = Week3/ThreeSum.cpp; sourceTree = "<group>"; };
 		4FA184322B7D9DA0003A1724 /* ThreeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ThreeSum.hpp; path = Week3/ThreeSum.hpp; sourceTree = "<group>"; };
 		4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GroupAnagrams.cpp; path = Week3/GroupAnagrams.cpp; sourceTree = "<group>"; };
@@ -261,6 +270,9 @@
 				4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */,
 				4F8B3BE32BBE630600D4047D /* CarFleet.cpp */,
 				4F8B3BE62BBEA3E600D4047D /* LargestRectangleInHistogram.cpp */,
+				4F8B3BE92BBFBFCB00D4047D /* BinarySearch.cpp */,
+				4F8B3BEC2BBFCA6000D4047D /* SearchA2DMatrix.cpp */,
+				4F8B3BEF2BBFCD1900D4047D /* KokoEatingBananas.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -282,6 +294,9 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F8B3BF02BBFCD1900D4047D /* KokoEatingBananas.hpp */,
+				4F8B3BED2BBFCA6000D4047D /* SearchA2DMatrix.hpp */,
+				4F8B3BEA2BBFBFCB00D4047D /* BinarySearch.hpp */,
 				78FD1A63887E4899B67FAA4E /* IOPractice.h */,
 				927D5367EF7349DE91DA7D5B /* TwoSum.h */,
 				4FC98BC92BB6BD8C00EB0989 /* ContainsDuplicate.hpp */,
@@ -414,6 +429,7 @@
 				4FC332B62BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp in Sources */,
 				4FC332B02BBA7DB700BE85DF /* SlidingWindowMaximum.cpp in Sources */,
 				196B06F5D80946218F184750 /* IOPractice.cpp in Sources */,
+				4F8B3BEB2BBFBFCB00D4047D /* BinarySearch.cpp in Sources */,
 				4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */,
 				47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */,
 				4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */,
@@ -422,6 +438,7 @@
 				4FA1843C2B7F4999003A1724 /* SearchInRotatedSortedArray.cpp in Sources */,
 				4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */,
 				4FC98BE22BB8FAC500EB0989 /* LongestSubstringWithoutRepeatingChar.cpp in Sources */,
+				4F8B3BF12BBFCD1900D4047D /* KokoEatingBananas.cpp in Sources */,
 				4FC98BD92BB7B89000EB0989 /* TrappingRainWater.cpp in Sources */,
 				4FC98BD62BB7B81B00EB0989 /* TwoSumII.cpp in Sources */,
 				4FA184422B8C8FC8003A1724 /* LinkedListCycle.cpp in Sources */,
@@ -442,6 +459,7 @@
 				9337A884C53F48EE847CCD02 /* MergeIntervals.cpp in Sources */,
 				428F95FE2ADD439D927E1ECA /* SubarraySumEqualsK.cpp in Sources */,
 				4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */,
+				4F8B3BEE2BBFCA6000D4047D /* SearchA2DMatrix.cpp in Sources */,
 				4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */,
 				4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */,
 				4FC98BDC2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.cpp in Sources */,
