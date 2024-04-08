@@ -22,6 +22,7 @@ struct ListNode {
 class MergeTwoSortedList {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2);
+    ListNode* mergeTwoLists2(ListNode* list1, ListNode* list2);
     ListNode* mergeTwoListsRecursive(ListNode* list1, ListNode* list2);
 };
 
