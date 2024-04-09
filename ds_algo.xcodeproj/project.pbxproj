@@ -52,6 +52,9 @@
 		4F8B3BFD2BC2F7D400D4047D /* ReorderList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BFB2BC2F7D400D4047D /* ReorderList.cpp */; };
 		4F8B3C002BC3C54000D4047D /* RemoveNthNodeFromEndOfList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BFE2BC3C54000D4047D /* RemoveNthNodeFromEndOfList.cpp */; };
 		4F8B3C032BC3F1D400D4047D /* CopyListWithRandomPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C012BC3F1D400D4047D /* CopyListWithRandomPointer.cpp */; };
+		4F8B3C062BC4E94C00D4047D /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C042BC4E94C00D4047D /* AddTwoNumbers.cpp */; };
+		4F8B3C092BC51E8500D4047D /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C072BC51E8500D4047D /* LRUCache.cpp */; };
+		4F8B3C0C2BC532F900D4047D /* MergeKList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C0A2BC532F900D4047D /* MergeKList.cpp */; };
 		4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */; };
 		4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */; };
 		4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184372B7F3813003A1724 /* MaximumProductSubarray.cpp */; };
@@ -140,6 +143,12 @@
 		4F8B3BFF2BC3C54000D4047D /* RemoveNthNodeFromEndOfList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = RemoveNthNodeFromEndOfList.hpp; path = PGWeek3/RemoveNthNodeFromEndOfList.hpp; sourceTree = "<group>"; };
 		4F8B3C012BC3F1D400D4047D /* CopyListWithRandomPointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CopyListWithRandomPointer.cpp; path = PGWeek3/CopyListWithRandomPointer.cpp; sourceTree = "<group>"; };
 		4F8B3C022BC3F1D400D4047D /* CopyListWithRandomPointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CopyListWithRandomPointer.hpp; path = PGWeek3/CopyListWithRandomPointer.hpp; sourceTree = "<group>"; };
+		4F8B3C042BC4E94C00D4047D /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AddTwoNumbers.cpp; path = PGWeek3/AddTwoNumbers.cpp; sourceTree = "<group>"; };
+		4F8B3C052BC4E94C00D4047D /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = AddTwoNumbers.hpp; path = PGWeek3/AddTwoNumbers.hpp; sourceTree = "<group>"; };
+		4F8B3C072BC51E8500D4047D /* LRUCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LRUCache.cpp; path = PGWeek3/LRUCache.cpp; sourceTree = "<group>"; };
+		4F8B3C082BC51E8500D4047D /* LRUCache.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LRUCache.hpp; path = PGWeek3/LRUCache.hpp; sourceTree = "<group>"; };
+		4F8B3C0A2BC532F900D4047D /* MergeKList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MergeKList.cpp; path = PGWeek3/MergeKList.cpp; sourceTree = "<group>"; };
+		4F8B3C0B2BC532F900D4047D /* MergeKList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MergeKList.hpp; path = PGWeek3/MergeKList.hpp; sourceTree = "<group>"; };
 		4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ThreeSum.cpp; path = Week3/ThreeSum.cpp; sourceTree = "<group>"; };
 		4FA184322B7D9DA0003A1724 /* ThreeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ThreeSum.hpp; path = Week3/ThreeSum.hpp; sourceTree = "<group>"; };
 		4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GroupAnagrams.cpp; path = Week3/GroupAnagrams.cpp; sourceTree = "<group>"; };
@@ -297,6 +306,9 @@
 				4F8B3BFB2BC2F7D400D4047D /* ReorderList.cpp */,
 				4F8B3BFE2BC3C54000D4047D /* RemoveNthNodeFromEndOfList.cpp */,
 				4F8B3C012BC3F1D400D4047D /* CopyListWithRandomPointer.cpp */,
+				4F8B3C042BC4E94C00D4047D /* AddTwoNumbers.cpp */,
+				4F8B3C072BC51E8500D4047D /* LRUCache.cpp */,
+				4F8B3C0A2BC532F900D4047D /* MergeKList.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -318,6 +330,9 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F8B3C0B2BC532F900D4047D /* MergeKList.hpp */,
+				4F8B3C082BC51E8500D4047D /* LRUCache.hpp */,
+				4F8B3C052BC4E94C00D4047D /* AddTwoNumbers.hpp */,
 				4F8B3C022BC3F1D400D4047D /* CopyListWithRandomPointer.hpp */,
 				4F8B3BFF2BC3C54000D4047D /* RemoveNthNodeFromEndOfList.hpp */,
 				4F8B3BFC2BC2F7D400D4047D /* ReorderList.hpp */,
@@ -462,6 +477,7 @@
 				4F8B3BEB2BBFBFCB00D4047D /* BinarySearch.cpp in Sources */,
 				4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */,
 				47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */,
+				4F8B3C0C2BC532F900D4047D /* MergeKList.cpp in Sources */,
 				4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */,
 				332AD4EC90CA4917A115E8D8 /* ValidAnagram.cpp in Sources */,
 				4FA184452B8D7505003A1724 /* ContainWithMostWater.cpp in Sources */,
@@ -479,6 +495,7 @@
 				4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */,
 				0A2B61F30C2C4005A30017E9 /* ValidParenthesis.cpp in Sources */,
 				4F8B3BF42BC1A62B00D4047D /* TimeBasedKeyValueStore.cpp in Sources */,
+				4F8B3C062BC4E94C00D4047D /* AddTwoNumbers.cpp in Sources */,
 				7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */,
 				4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */,
 				4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */,
@@ -494,6 +511,7 @@
 				9337A884C53F48EE847CCD02 /* MergeIntervals.cpp in Sources */,
 				428F95FE2ADD439D927E1ECA /* SubarraySumEqualsK.cpp in Sources */,
 				4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */,
+				4F8B3C092BC51E8500D4047D /* LRUCache.cpp in Sources */,
 				4F8B3BEE2BBFCA6000D4047D /* SearchA2DMatrix.cpp in Sources */,
 				4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */,
 				4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */,
