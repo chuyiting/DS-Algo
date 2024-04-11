@@ -60,6 +60,9 @@
 		4F8B3C152BC683FC00D4047D /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C132BC683FC00D4047D /* MaximumDepthOfBinaryTree.cpp */; };
 		4F8B3C182BC684C200D4047D /* DiameterOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C162BC684C200D4047D /* DiameterOfBinaryTree.cpp */; };
 		4F8B3C1B2BC68B4000D4047D /* BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C192BC68B4000D4047D /* BalancedBinaryTree.cpp */; };
+		4F8B3C1E2BC7869700D4047D /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C1C2BC7869700D4047D /* SameTree.cpp */; };
+		4F8B3C212BC7887B00D4047D /* SubtreeOfAnotherTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C1F2BC7887B00D4047D /* SubtreeOfAnotherTree.cpp */; };
+		4F8B3C242BC7B01300D4047D /* LowestCommonAncester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C222BC7B01300D4047D /* LowestCommonAncester.cpp */; };
 		4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */; };
 		4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */; };
 		4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184372B7F3813003A1724 /* MaximumProductSubarray.cpp */; };
@@ -164,6 +167,12 @@
 		4F8B3C172BC684C200D4047D /* DiameterOfBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DiameterOfBinaryTree.hpp; path = PGWeek3/DiameterOfBinaryTree.hpp; sourceTree = "<group>"; };
 		4F8B3C192BC68B4000D4047D /* BalancedBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BalancedBinaryTree.cpp; path = PGWeek3/BalancedBinaryTree.cpp; sourceTree = "<group>"; };
 		4F8B3C1A2BC68B4000D4047D /* BalancedBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BalancedBinaryTree.hpp; path = PGWeek3/BalancedBinaryTree.hpp; sourceTree = "<group>"; };
+		4F8B3C1C2BC7869700D4047D /* SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SameTree.cpp; path = PGWeek3/SameTree.cpp; sourceTree = "<group>"; };
+		4F8B3C1D2BC7869700D4047D /* SameTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SameTree.hpp; path = PGWeek3/SameTree.hpp; sourceTree = "<group>"; };
+		4F8B3C1F2BC7887B00D4047D /* SubtreeOfAnotherTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SubtreeOfAnotherTree.cpp; path = PGWeek3/SubtreeOfAnotherTree.cpp; sourceTree = "<group>"; };
+		4F8B3C202BC7887B00D4047D /* SubtreeOfAnotherTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SubtreeOfAnotherTree.hpp; path = PGWeek3/SubtreeOfAnotherTree.hpp; sourceTree = "<group>"; };
+		4F8B3C222BC7B01300D4047D /* LowestCommonAncester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LowestCommonAncester.cpp; path = PGWeek3/LowestCommonAncester.cpp; sourceTree = "<group>"; };
+		4F8B3C232BC7B01300D4047D /* LowestCommonAncester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LowestCommonAncester.hpp; path = PGWeek3/LowestCommonAncester.hpp; sourceTree = "<group>"; };
 		4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ThreeSum.cpp; path = Week3/ThreeSum.cpp; sourceTree = "<group>"; };
 		4FA184322B7D9DA0003A1724 /* ThreeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ThreeSum.hpp; path = Week3/ThreeSum.hpp; sourceTree = "<group>"; };
 		4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GroupAnagrams.cpp; path = Week3/GroupAnagrams.cpp; sourceTree = "<group>"; };
@@ -329,6 +338,9 @@
 				4F8B3C132BC683FC00D4047D /* MaximumDepthOfBinaryTree.cpp */,
 				4F8B3C162BC684C200D4047D /* DiameterOfBinaryTree.cpp */,
 				4F8B3C192BC68B4000D4047D /* BalancedBinaryTree.cpp */,
+				4F8B3C1C2BC7869700D4047D /* SameTree.cpp */,
+				4F8B3C1F2BC7887B00D4047D /* SubtreeOfAnotherTree.cpp */,
+				4F8B3C222BC7B01300D4047D /* LowestCommonAncester.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -350,6 +362,9 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F8B3C232BC7B01300D4047D /* LowestCommonAncester.hpp */,
+				4F8B3C202BC7887B00D4047D /* SubtreeOfAnotherTree.hpp */,
+				4F8B3C1D2BC7869700D4047D /* SameTree.hpp */,
 				4F8B3C1A2BC68B4000D4047D /* BalancedBinaryTree.hpp */,
 				4F8B3C172BC684C200D4047D /* DiameterOfBinaryTree.hpp */,
 				4F8B3C142BC683FC00D4047D /* MaximumDepthOfBinaryTree.hpp */,
@@ -520,6 +535,7 @@
 				4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */,
 				4FA1843F2B8C7B1B003A1724 /* ReverseLinkedList.cpp in Sources */,
 				4F8B3C1B2BC68B4000D4047D /* BalancedBinaryTree.cpp in Sources */,
+				4F8B3C212BC7887B00D4047D /* SubtreeOfAnotherTree.cpp in Sources */,
 				4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */,
 				4F8B3C0F2BC67DDC00D4047D /* ReverseNodesInKGroup.cpp in Sources */,
 				0A2B61F30C2C4005A30017E9 /* ValidParenthesis.cpp in Sources */,
@@ -527,6 +543,7 @@
 				4F8B3C062BC4E94C00D4047D /* AddTwoNumbers.cpp in Sources */,
 				7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */,
 				4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */,
+				4F8B3C1E2BC7869700D4047D /* SameTree.cpp in Sources */,
 				4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */,
 				4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */,
 				4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */,
@@ -539,6 +556,7 @@
 				F0FC3B8252544AECBE2EA7A8 /* FindTheDuplicateNumber.cpp in Sources */,
 				9337A884C53F48EE847CCD02 /* MergeIntervals.cpp in Sources */,
 				428F95FE2ADD439D927E1ECA /* SubarraySumEqualsK.cpp in Sources */,
+				4F8B3C242BC7B01300D4047D /* LowestCommonAncester.cpp in Sources */,
 				4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */,
 				4F8B3C092BC51E8500D4047D /* LRUCache.cpp in Sources */,
 				4F8B3BEE2BBFCA6000D4047D /* SearchA2DMatrix.cpp in Sources */,
