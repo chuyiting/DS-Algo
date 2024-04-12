@@ -63,6 +63,9 @@
 		4F8B3C1E2BC7869700D4047D /* SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C1C2BC7869700D4047D /* SameTree.cpp */; };
 		4F8B3C212BC7887B00D4047D /* SubtreeOfAnotherTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C1F2BC7887B00D4047D /* SubtreeOfAnotherTree.cpp */; };
 		4F8B3C242BC7B01300D4047D /* LowestCommonAncester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C222BC7B01300D4047D /* LowestCommonAncester.cpp */; };
+		4F8B3C272BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C252BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.cpp */; };
+		4F8B3C2A2BC8F7EB00D4047D /* BinaryTreeRightSideView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C282BC8F7EB00D4047D /* BinaryTreeRightSideView.cpp */; };
+		4F8B3C2D2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3C2B2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.cpp */; };
 		4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */; };
 		4FA184362B7E0AF7003A1724 /* GroupAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */; };
 		4FA184392B7F3813003A1724 /* MaximumProductSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184372B7F3813003A1724 /* MaximumProductSubarray.cpp */; };
@@ -173,6 +176,12 @@
 		4F8B3C202BC7887B00D4047D /* SubtreeOfAnotherTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SubtreeOfAnotherTree.hpp; path = PGWeek3/SubtreeOfAnotherTree.hpp; sourceTree = "<group>"; };
 		4F8B3C222BC7B01300D4047D /* LowestCommonAncester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LowestCommonAncester.cpp; path = PGWeek3/LowestCommonAncester.cpp; sourceTree = "<group>"; };
 		4F8B3C232BC7B01300D4047D /* LowestCommonAncester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LowestCommonAncester.hpp; path = PGWeek3/LowestCommonAncester.hpp; sourceTree = "<group>"; };
+		4F8B3C252BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTreeLevelOrderTraversal.cpp; path = PGWeek3/BinaryTreeLevelOrderTraversal.cpp; sourceTree = "<group>"; };
+		4F8B3C262BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BinaryTreeLevelOrderTraversal.hpp; path = PGWeek3/BinaryTreeLevelOrderTraversal.hpp; sourceTree = "<group>"; };
+		4F8B3C282BC8F7EB00D4047D /* BinaryTreeRightSideView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryTreeRightSideView.cpp; path = PGWeek3/BinaryTreeRightSideView.cpp; sourceTree = "<group>"; };
+		4F8B3C292BC8F7EB00D4047D /* BinaryTreeRightSideView.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BinaryTreeRightSideView.hpp; path = PGWeek3/BinaryTreeRightSideView.hpp; sourceTree = "<group>"; };
+		4F8B3C2B2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CountGoodNodesInBinaryTree.cpp; path = PGWeek3/CountGoodNodesInBinaryTree.cpp; sourceTree = "<group>"; };
+		4F8B3C2C2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CountGoodNodesInBinaryTree.hpp; path = PGWeek3/CountGoodNodesInBinaryTree.hpp; sourceTree = "<group>"; };
 		4FA184312B7D9DA0003A1724 /* ThreeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ThreeSum.cpp; path = Week3/ThreeSum.cpp; sourceTree = "<group>"; };
 		4FA184322B7D9DA0003A1724 /* ThreeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ThreeSum.hpp; path = Week3/ThreeSum.hpp; sourceTree = "<group>"; };
 		4FA184342B7E0AF7003A1724 /* GroupAnagrams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GroupAnagrams.cpp; path = Week3/GroupAnagrams.cpp; sourceTree = "<group>"; };
@@ -341,6 +350,9 @@
 				4F8B3C1C2BC7869700D4047D /* SameTree.cpp */,
 				4F8B3C1F2BC7887B00D4047D /* SubtreeOfAnotherTree.cpp */,
 				4F8B3C222BC7B01300D4047D /* LowestCommonAncester.cpp */,
+				4F8B3C252BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.cpp */,
+				4F8B3C282BC8F7EB00D4047D /* BinaryTreeRightSideView.cpp */,
+				4F8B3C2B2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -362,6 +374,9 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F8B3C2C2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.hpp */,
+				4F8B3C292BC8F7EB00D4047D /* BinaryTreeRightSideView.hpp */,
+				4F8B3C262BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.hpp */,
 				4F8B3C232BC7B01300D4047D /* LowestCommonAncester.hpp */,
 				4F8B3C202BC7887B00D4047D /* SubtreeOfAnotherTree.hpp */,
 				4F8B3C1D2BC7869700D4047D /* SameTree.hpp */,
@@ -533,6 +548,8 @@
 				4FC98BD62BB7B81B00EB0989 /* TwoSumII.cpp in Sources */,
 				4FA184422B8C8FC8003A1724 /* LinkedListCycle.cpp in Sources */,
 				4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */,
+				4F8B3C272BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
+				4F8B3C2A2BC8F7EB00D4047D /* BinaryTreeRightSideView.cpp in Sources */,
 				4FA1843F2B8C7B1B003A1724 /* ReverseLinkedList.cpp in Sources */,
 				4F8B3C1B2BC68B4000D4047D /* BalancedBinaryTree.cpp in Sources */,
 				4F8B3C212BC7887B00D4047D /* SubtreeOfAnotherTree.cpp in Sources */,
@@ -558,6 +575,7 @@
 				428F95FE2ADD439D927E1ECA /* SubarraySumEqualsK.cpp in Sources */,
 				4F8B3C242BC7B01300D4047D /* LowestCommonAncester.cpp in Sources */,
 				4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */,
+				4F8B3C2D2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.cpp in Sources */,
 				4F8B3C092BC51E8500D4047D /* LRUCache.cpp in Sources */,
 				4F8B3BEE2BBFCA6000D4047D /* SearchA2DMatrix.cpp in Sources */,
 				4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */,
