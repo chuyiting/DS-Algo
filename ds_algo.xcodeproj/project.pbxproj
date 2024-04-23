@@ -39,6 +39,7 @@
 		332AD4EC90CA4917A115E8D8 /* ValidAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7D0916EBC3749278C9ED33B /* ValidAnagram.cpp */; };
 		428F95FE2ADD439D927E1ECA /* SubarraySumEqualsK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2BC018446FA4CF4BE0B0EDD /* SubarraySumEqualsK.cpp */; };
 		47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98E8171E8BD04B56A4568012 /* TwoSum.cpp */; };
+		4F1028BB2BD206AE008DB16B /* KthLargest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F1028B92BD206AE008DB16B /* KthLargest.cpp */; };
 		4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */; };
 		4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */; };
 		4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE32BBE630600D4047D /* CarFleet.cpp */; };
@@ -133,6 +134,8 @@
 		3B25BED4C1CC46438B7DEC2C /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		40F6998EA10346A2BABEF5AB /* TopKFrequent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TopKFrequent.cpp; path = Week2/TopKFrequent.cpp; sourceTree = SOURCE_ROOT; };
 		4B1AC0698941417AA38AD867 /* ContinuousSubarraySum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ContinuousSubarraySum.cpp; path = Week3/ContinuousSubarraySum.cpp; sourceTree = SOURCE_ROOT; };
+		4F1028B92BD206AE008DB16B /* KthLargest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = KthLargest.cpp; path = PGWeek4/KthLargest.cpp; sourceTree = "<group>"; };
+		4F1028BA2BD206AE008DB16B /* KthLargest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = KthLargest.hpp; path = PGWeek4/KthLargest.hpp; sourceTree = "<group>"; };
 		4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParanthesis.cpp; path = PGWeek2/GenerateParanthesis.cpp; sourceTree = "<group>"; };
 		4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GenerateParanthesis.hpp; path = PGWeek2/GenerateParanthesis.hpp; sourceTree = "<group>"; };
 		4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DailyTemperature.cpp; path = PGWeek2/DailyTemperature.cpp; sourceTree = "<group>"; };
@@ -373,6 +376,7 @@
 				4F8B3C342BCCFAB300D4047D /* ConstructTree.cpp */,
 				4F8B3C372BCD0DE200D4047D /* BinaryTreeMaximumPathSum.cpp */,
 				4F8B3C3A2BCD161500D4047D /* SerializeAndDeserializeBinaryTree.cpp */,
+				4F1028B92BD206AE008DB16B /* KthLargest.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -394,6 +398,7 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F1028BA2BD206AE008DB16B /* KthLargest.hpp */,
 				4F8B3C3B2BCD161500D4047D /* SerializeAndDeserializeBinaryTree.hpp */,
 				4F8B3C382BCD0DE200D4047D /* BinaryTreeMaximumPathSum.hpp */,
 				4F8B3C352BCCFAB300D4047D /* ConstructTree.hpp */,
@@ -586,6 +591,7 @@
 				4F8B3C332BCC273600D4047D /* KthSmallestInBST.cpp in Sources */,
 				4F8B3BF42BC1A62B00D4047D /* TimeBasedKeyValueStore.cpp in Sources */,
 				4F8B3C062BC4E94C00D4047D /* AddTwoNumbers.cpp in Sources */,
+				4F1028BB2BD206AE008DB16B /* KthLargest.cpp in Sources */,
 				7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */,
 				4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */,
 				4F8B3C1E2BC7869700D4047D /* SameTree.cpp in Sources */,
