@@ -43,6 +43,8 @@
 		4F44A8952BD7B8A80093BB44 /* LastStoneWeight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8932BD7B8A80093BB44 /* LastStoneWeight.cpp */; };
 		4F44A8982BD7E2D80093BB44 /* KClosestPointToOrigin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8962BD7E2D80093BB44 /* KClosestPointToOrigin.cpp */; };
 		4F44A89B2BD7E75E0093BB44 /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8992BD7E75E0093BB44 /* KthLargestElementInAnArray.cpp */; };
+		4F44A89E2BD8CB900093BB44 /* TaskScheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A89C2BD8CB900093BB44 /* TaskScheduler.cpp */; };
+		4F44A8A12BD8E28E0093BB44 /* DesignTwitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A89F2BD8E28E0093BB44 /* DesignTwitter.cpp */; };
 		4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */; };
 		4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */; };
 		4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE32BBE630600D4047D /* CarFleet.cpp */; };
@@ -145,6 +147,10 @@
 		4F44A8972BD7E2D80093BB44 /* KClosestPointToOrigin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = KClosestPointToOrigin.hpp; path = PGWeek5/KClosestPointToOrigin.hpp; sourceTree = "<group>"; };
 		4F44A8992BD7E75E0093BB44 /* KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = KthLargestElementInAnArray.cpp; path = PGWeek5/KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
 		4F44A89A2BD7E75E0093BB44 /* KthLargestElementInAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = KthLargestElementInAnArray.hpp; path = PGWeek5/KthLargestElementInAnArray.hpp; sourceTree = "<group>"; };
+		4F44A89C2BD8CB900093BB44 /* TaskScheduler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TaskScheduler.cpp; path = PGWeek5/TaskScheduler.cpp; sourceTree = "<group>"; };
+		4F44A89D2BD8CB900093BB44 /* TaskScheduler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TaskScheduler.hpp; path = PGWeek5/TaskScheduler.hpp; sourceTree = "<group>"; };
+		4F44A89F2BD8E28E0093BB44 /* DesignTwitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DesignTwitter.cpp; path = PGWeek5/DesignTwitter.cpp; sourceTree = "<group>"; };
+		4F44A8A02BD8E28E0093BB44 /* DesignTwitter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DesignTwitter.hpp; path = PGWeek5/DesignTwitter.hpp; sourceTree = "<group>"; };
 		4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParanthesis.cpp; path = PGWeek2/GenerateParanthesis.cpp; sourceTree = "<group>"; };
 		4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GenerateParanthesis.hpp; path = PGWeek2/GenerateParanthesis.hpp; sourceTree = "<group>"; };
 		4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DailyTemperature.cpp; path = PGWeek2/DailyTemperature.cpp; sourceTree = "<group>"; };
@@ -389,6 +395,8 @@
 				4F44A8932BD7B8A80093BB44 /* LastStoneWeight.cpp */,
 				4F44A8962BD7E2D80093BB44 /* KClosestPointToOrigin.cpp */,
 				4F44A8992BD7E75E0093BB44 /* KthLargestElementInAnArray.cpp */,
+				4F44A89C2BD8CB900093BB44 /* TaskScheduler.cpp */,
+				4F44A89F2BD8E28E0093BB44 /* DesignTwitter.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -410,6 +418,8 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F44A8A02BD8E28E0093BB44 /* DesignTwitter.hpp */,
+				4F44A89D2BD8CB900093BB44 /* TaskScheduler.hpp */,
 				4F44A89A2BD7E75E0093BB44 /* KthLargestElementInAnArray.hpp */,
 				4F44A8972BD7E2D80093BB44 /* KClosestPointToOrigin.hpp */,
 				4F44A8942BD7B8A80093BB44 /* LastStoneWeight.hpp */,
@@ -616,6 +626,7 @@
 				4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */,
 				4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */,
 				FC2F52DEAD4A4AE287FD05F9 /* ContinuousSubarraySum.cpp in Sources */,
+				4F44A8A12BD8E28E0093BB44 /* DesignTwitter.cpp in Sources */,
 				4F8B3BE82BBEA3E600D4047D /* LargestRectangleInHistogram.cpp in Sources */,
 				4F8B3C032BC3F1D400D4047D /* CopyListWithRandomPointer.cpp in Sources */,
 				4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */,
@@ -627,6 +638,7 @@
 				4F44A8952BD7B8A80093BB44 /* LastStoneWeight.cpp in Sources */,
 				4F8B3C242BC7B01300D4047D /* LowestCommonAncester.cpp in Sources */,
 				4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */,
+				4F44A89E2BD8CB900093BB44 /* TaskScheduler.cpp in Sources */,
 				4F8B3C2D2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.cpp in Sources */,
 				4F8B3C092BC51E8500D4047D /* LRUCache.cpp in Sources */,
 				4F8B3BEE2BBFCA6000D4047D /* SearchA2DMatrix.cpp in Sources */,
