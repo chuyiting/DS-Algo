@@ -11,6 +11,8 @@
 #include <stdio.h>
 #include <vector>
 #include <unordered_map>
+#include <queue>
+#include <utility>
 
 typedef int userId_t;
 
@@ -25,6 +27,7 @@ class User {
     std::unordered_map<userId_t, User*> followees;
     std::vector<Tweet*> tweets;
 public:
+    User() = delete;
     User(userId_t id) {
         this->id = id;
         this->followees[id] = this;
@@ -47,11 +50,29 @@ public:
     }
     
     
+    bool operator==(const User& o) const {
+        return id == o.id;
+    }
+    
+    friend class UserHash;
+    
+};
+
+struct UserHash {
+    size_t operator()(const User& user) const {
+        return user.id;
+    }
 };
 
 struct TweetCmp {
     bool operator()(const Tweet *t1, const Tweet *t2) {
         return t1->timestamp < t2->timestamp;
+    }
+};
+
+struct UserTweetCmp {
+    bool operator()(const std::pair<int, User*> & ut1, const std::pair<int, User*> & ut2) {
+        return ut1.second->getTweets()[ut1.first] < ut2.second->getTweets()[ut2.first];
     }
 };
 
@@ -76,37 +97,30 @@ public:
     std::vector<int> getNewsFeed(int userId) {
         if (users.count(userId) == 0) return {};
         auto &followees = users[userId]->getFollowees();
-        std::vector<int> currIds(followees.size());
-        int i = 0;
+        std::priority_queue<std::pair<int, User*>, std::vector<std::pair<int, User*>>, UserTweetCmp> pq;
+        
         for (const auto& followee : followees) {
-            currIds[i] = followee.second->getTweets().size()-1;
-            i++;
+            int id = followee.second->getTweets().size()-1;
+            if (id >= 0) {
+                pq.push({id, followee.second});
+            }
         }
         
-        int j = 0;
-        bool moreFeedExist = true;
+        int count = 0;
         std::vector<int> feed;
-        
-        while (j < 10 && moreFeedExist) {
-            moreFeedExist = false;
-            int k = 0;
-            Tweet* latestTweet = nullptr;
-            int latestK = 0;
+        while (!pq.empty() && count < 10) {
+            const auto tweetIdUser = pq.top();
+            int tweetId = tweetIdUser.first;
+            User *user = tweetIdUser.second;
+            Tweet *tweet = user->getTweets()[tweetId];
+            feed.push_back(tweet->id);
             
-            for (const auto& followee : followees) {
-                if (currIds[k] >= 0 && followee.second->getTweets()[currIds[k]]->timestamp > latestTweet->timestamp) {
-                    latestTweet = followee.second->getTweets()[currIds[k]];
-                    latestK = k;
-                    moreFeedExist = true;
-                }
-                k++;
-            }
+            pq.pop();
             
-            if (moreFeedExist) {
-                feed.push_back(latestTweet->id);
-                j++;
-                currIds[latestK]--;
+            if (tweetId > 0) {
+                pq.push({tweetId-1, user});
             }
+            count++;
         }
         return feed;
     }
