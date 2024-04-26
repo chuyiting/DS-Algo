@@ -45,6 +45,10 @@
 		4F44A89B2BD7E75E0093BB44 /* KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8992BD7E75E0093BB44 /* KthLargestElementInAnArray.cpp */; };
 		4F44A89E2BD8CB900093BB44 /* TaskScheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A89C2BD8CB900093BB44 /* TaskScheduler.cpp */; };
 		4F44A8A12BD8E28E0093BB44 /* DesignTwitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A89F2BD8E28E0093BB44 /* DesignTwitter.cpp */; };
+		4F44A8A42BDB72910093BB44 /* FindMedianFromDataStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8A22BDB72910093BB44 /* FindMedianFromDataStream.cpp */; };
+		4F44A8A72BDB8DE80093BB44 /* Subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8A52BDB8DE80093BB44 /* Subsets.cpp */; };
+		4F44A8AD2BDBB2050093BB44 /* CombinationSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8AB2BDBB2050093BB44 /* CombinationSum.cpp */; };
+		4F44A8B02BDBB91A0093BB44 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8AE2BDBB91A0093BB44 /* Permutations.cpp */; };
 		4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */; };
 		4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */; };
 		4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE32BBE630600D4047D /* CarFleet.cpp */; };
@@ -151,6 +155,14 @@
 		4F44A89D2BD8CB900093BB44 /* TaskScheduler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TaskScheduler.hpp; path = PGWeek5/TaskScheduler.hpp; sourceTree = "<group>"; };
 		4F44A89F2BD8E28E0093BB44 /* DesignTwitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DesignTwitter.cpp; path = PGWeek5/DesignTwitter.cpp; sourceTree = "<group>"; };
 		4F44A8A02BD8E28E0093BB44 /* DesignTwitter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DesignTwitter.hpp; path = PGWeek5/DesignTwitter.hpp; sourceTree = "<group>"; };
+		4F44A8A22BDB72910093BB44 /* FindMedianFromDataStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FindMedianFromDataStream.cpp; path = PGWeek5/FindMedianFromDataStream.cpp; sourceTree = "<group>"; };
+		4F44A8A32BDB72910093BB44 /* FindMedianFromDataStream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = FindMedianFromDataStream.hpp; path = PGWeek5/FindMedianFromDataStream.hpp; sourceTree = "<group>"; };
+		4F44A8A52BDB8DE80093BB44 /* Subsets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Subsets.cpp; path = PGWeek5/Subsets.cpp; sourceTree = "<group>"; };
+		4F44A8A62BDB8DE80093BB44 /* Subsets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Subsets.hpp; path = PGWeek5/Subsets.hpp; sourceTree = "<group>"; };
+		4F44A8AB2BDBB2050093BB44 /* CombinationSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CombinationSum.cpp; path = PGWeek5/CombinationSum.cpp; sourceTree = "<group>"; };
+		4F44A8AC2BDBB2050093BB44 /* CombinationSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CombinationSum.hpp; path = PGWeek5/CombinationSum.hpp; sourceTree = "<group>"; };
+		4F44A8AE2BDBB91A0093BB44 /* Permutations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Permutations.cpp; path = PGWeek5/Permutations.cpp; sourceTree = "<group>"; };
+		4F44A8AF2BDBB91A0093BB44 /* Permutations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Permutations.hpp; path = PGWeek5/Permutations.hpp; sourceTree = "<group>"; };
 		4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParanthesis.cpp; path = PGWeek2/GenerateParanthesis.cpp; sourceTree = "<group>"; };
 		4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GenerateParanthesis.hpp; path = PGWeek2/GenerateParanthesis.hpp; sourceTree = "<group>"; };
 		4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DailyTemperature.cpp; path = PGWeek2/DailyTemperature.cpp; sourceTree = "<group>"; };
@@ -397,6 +409,10 @@
 				4F44A8992BD7E75E0093BB44 /* KthLargestElementInAnArray.cpp */,
 				4F44A89C2BD8CB900093BB44 /* TaskScheduler.cpp */,
 				4F44A89F2BD8E28E0093BB44 /* DesignTwitter.cpp */,
+				4F44A8A22BDB72910093BB44 /* FindMedianFromDataStream.cpp */,
+				4F44A8A52BDB8DE80093BB44 /* Subsets.cpp */,
+				4F44A8AB2BDBB2050093BB44 /* CombinationSum.cpp */,
+				4F44A8AE2BDBB91A0093BB44 /* Permutations.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -418,6 +434,10 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F44A8AF2BDBB91A0093BB44 /* Permutations.hpp */,
+				4F44A8AC2BDBB2050093BB44 /* CombinationSum.hpp */,
+				4F44A8A62BDB8DE80093BB44 /* Subsets.hpp */,
+				4F44A8A32BDB72910093BB44 /* FindMedianFromDataStream.hpp */,
 				4F44A8A02BD8E28E0093BB44 /* DesignTwitter.hpp */,
 				4F44A89D2BD8CB900093BB44 /* TaskScheduler.hpp */,
 				4F44A89A2BD7E75E0093BB44 /* KthLargestElementInAnArray.hpp */,
@@ -581,11 +601,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F44A8B02BDBB91A0093BB44 /* Permutations.cpp in Sources */,
 				4FC332B62BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp in Sources */,
 				4FC332B02BBA7DB700BE85DF /* SlidingWindowMaximum.cpp in Sources */,
 				196B06F5D80946218F184750 /* IOPractice.cpp in Sources */,
 				4F8B3BEB2BBFBFCB00D4047D /* BinarySearch.cpp in Sources */,
 				4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */,
+				4F44A8A72BDB8DE80093BB44 /* Subsets.cpp in Sources */,
 				47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */,
 				4F8B3C182BC684C200D4047D /* DiameterOfBinaryTree.cpp in Sources */,
 				4F8B3C0C2BC532F900D4047D /* MergeKList.cpp in Sources */,
@@ -624,6 +646,7 @@
 				4F8B3C1E2BC7869700D4047D /* SameTree.cpp in Sources */,
 				4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */,
 				4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */,
+				4F44A8AD2BDBB2050093BB44 /* CombinationSum.cpp in Sources */,
 				4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */,
 				FC2F52DEAD4A4AE287FD05F9 /* ContinuousSubarraySum.cpp in Sources */,
 				4F44A8A12BD8E28E0093BB44 /* DesignTwitter.cpp in Sources */,
@@ -650,6 +673,7 @@
 				4F8B3C152BC683FC00D4047D /* MaximumDepthOfBinaryTree.cpp in Sources */,
 				4F8B3C302BCC1ABF00D4047D /* ValidateBinarySearchTree.cpp in Sources */,
 				4F8B3C392BCD0DE200D4047D /* BinaryTreeMaximumPathSum.cpp in Sources */,
+				4F44A8A42BDB72910093BB44 /* FindMedianFromDataStream.cpp in Sources */,
 				FA1D09BC0B644EFE8667A676 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
