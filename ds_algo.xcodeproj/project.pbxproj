@@ -51,6 +51,11 @@
 		4F44A8B02BDBB91A0093BB44 /* Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8AE2BDBB91A0093BB44 /* Permutations.cpp */; };
 		4F44A8B32BDBFED40093BB44 /* SubsetsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8B12BDBFED40093BB44 /* SubsetsII.cpp */; };
 		4F44A8B62BDC0B660093BB44 /* CombinationSumII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8B42BDC0B660093BB44 /* CombinationSumII.cpp */; };
+		4F44A8B92BDC93750093BB44 /* WordSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8B72BDC93750093BB44 /* WordSearch.cpp */; };
+		4F44A8BC2BDC9DDF0093BB44 /* PalindromePartitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8BA2BDC9DDF0093BB44 /* PalindromePartitioning.cpp */; };
+		4F44A8BF2BDCA4AB0093BB44 /* LetterCombinationsOfAPhoneNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8BD2BDCA4AB0093BB44 /* LetterCombinationsOfAPhoneNumber.cpp */; };
+		4F44A8C52BDCA8170093BB44 /* NQueens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8C32BDCA8170093BB44 /* NQueens.cpp */; };
+		4F44A8C82BDCB6FF0093BB44 /* ImplementTrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8C62BDCB6FF0093BB44 /* ImplementTrie.cpp */; };
 		4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */; };
 		4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */; };
 		4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE32BBE630600D4047D /* CarFleet.cpp */; };
@@ -169,6 +174,16 @@
 		4F44A8B22BDBFED40093BB44 /* SubsetsII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SubsetsII.hpp; path = PGWeek5/SubsetsII.hpp; sourceTree = "<group>"; };
 		4F44A8B42BDC0B660093BB44 /* CombinationSumII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CombinationSumII.cpp; path = PGWeek5/CombinationSumII.cpp; sourceTree = "<group>"; };
 		4F44A8B52BDC0B660093BB44 /* CombinationSumII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CombinationSumII.hpp; path = PGWeek5/CombinationSumII.hpp; sourceTree = "<group>"; };
+		4F44A8B72BDC93750093BB44 /* WordSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WordSearch.cpp; path = PGWeek5/WordSearch.cpp; sourceTree = "<group>"; };
+		4F44A8B82BDC93750093BB44 /* WordSearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = WordSearch.hpp; path = PGWeek5/WordSearch.hpp; sourceTree = "<group>"; };
+		4F44A8BA2BDC9DDF0093BB44 /* PalindromePartitioning.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PalindromePartitioning.cpp; path = PGWeek5/PalindromePartitioning.cpp; sourceTree = "<group>"; };
+		4F44A8BB2BDC9DDF0093BB44 /* PalindromePartitioning.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PalindromePartitioning.hpp; path = PGWeek5/PalindromePartitioning.hpp; sourceTree = "<group>"; };
+		4F44A8BD2BDCA4AB0093BB44 /* LetterCombinationsOfAPhoneNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LetterCombinationsOfAPhoneNumber.cpp; path = PGWeek5/LetterCombinationsOfAPhoneNumber.cpp; sourceTree = "<group>"; };
+		4F44A8BE2BDCA4AB0093BB44 /* LetterCombinationsOfAPhoneNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LetterCombinationsOfAPhoneNumber.hpp; path = PGWeek5/LetterCombinationsOfAPhoneNumber.hpp; sourceTree = "<group>"; };
+		4F44A8C32BDCA8170093BB44 /* NQueens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NQueens.cpp; path = PGWeek5/NQueens.cpp; sourceTree = "<group>"; };
+		4F44A8C42BDCA8170093BB44 /* NQueens.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = NQueens.hpp; path = PGWeek5/NQueens.hpp; sourceTree = "<group>"; };
+		4F44A8C62BDCB6FF0093BB44 /* ImplementTrie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ImplementTrie.cpp; path = PGWeek5/ImplementTrie.cpp; sourceTree = "<group>"; };
+		4F44A8C72BDCB6FF0093BB44 /* ImplementTrie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ImplementTrie.hpp; path = PGWeek5/ImplementTrie.hpp; sourceTree = "<group>"; };
 		4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParanthesis.cpp; path = PGWeek2/GenerateParanthesis.cpp; sourceTree = "<group>"; };
 		4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GenerateParanthesis.hpp; path = PGWeek2/GenerateParanthesis.hpp; sourceTree = "<group>"; };
 		4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DailyTemperature.cpp; path = PGWeek2/DailyTemperature.cpp; sourceTree = "<group>"; };
@@ -421,6 +436,11 @@
 				4F44A8AE2BDBB91A0093BB44 /* Permutations.cpp */,
 				4F44A8B12BDBFED40093BB44 /* SubsetsII.cpp */,
 				4F44A8B42BDC0B660093BB44 /* CombinationSumII.cpp */,
+				4F44A8B72BDC93750093BB44 /* WordSearch.cpp */,
+				4F44A8BA2BDC9DDF0093BB44 /* PalindromePartitioning.cpp */,
+				4F44A8BD2BDCA4AB0093BB44 /* LetterCombinationsOfAPhoneNumber.cpp */,
+				4F44A8C32BDCA8170093BB44 /* NQueens.cpp */,
+				4F44A8C62BDCB6FF0093BB44 /* ImplementTrie.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -442,6 +462,11 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F44A8C72BDCB6FF0093BB44 /* ImplementTrie.hpp */,
+				4F44A8C42BDCA8170093BB44 /* NQueens.hpp */,
+				4F44A8BE2BDCA4AB0093BB44 /* LetterCombinationsOfAPhoneNumber.hpp */,
+				4F44A8BB2BDC9DDF0093BB44 /* PalindromePartitioning.hpp */,
+				4F44A8B82BDC93750093BB44 /* WordSearch.hpp */,
 				4F44A8B52BDC0B660093BB44 /* CombinationSumII.hpp */,
 				4F44A8B22BDBFED40093BB44 /* SubsetsII.hpp */,
 				4F44A8AF2BDBB91A0093BB44 /* Permutations.hpp */,
@@ -638,6 +663,7 @@
 				4FA184422B8C8FC8003A1724 /* LinkedListCycle.cpp in Sources */,
 				4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */,
 				4F8B3C272BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
+				4F44A8C52BDCA8170093BB44 /* NQueens.cpp in Sources */,
 				4F8B3C3C2BCD161500D4047D /* SerializeAndDeserializeBinaryTree.cpp in Sources */,
 				4F8B3C2A2BC8F7EB00D4047D /* BinaryTreeRightSideView.cpp in Sources */,
 				4FA1843F2B8C7B1B003A1724 /* ReverseLinkedList.cpp in Sources */,
@@ -645,6 +671,7 @@
 				4F8B3C212BC7887B00D4047D /* SubtreeOfAnotherTree.cpp in Sources */,
 				4F8B3C362BCCFAB300D4047D /* ConstructTree.cpp in Sources */,
 				4FE4F8D82B77A9C50071AE13 /* ProductOfArrayExceptSelf.cpp in Sources */,
+				4F44A8B92BDC93750093BB44 /* WordSearch.cpp in Sources */,
 				4F8B3C0F2BC67DDC00D4047D /* ReverseNodesInKGroup.cpp in Sources */,
 				0A2B61F30C2C4005A30017E9 /* ValidParenthesis.cpp in Sources */,
 				4F8B3C332BCC273600D4047D /* KthSmallestInBST.cpp in Sources */,
@@ -654,8 +681,10 @@
 				4F44A8B32BDBFED40093BB44 /* SubsetsII.cpp in Sources */,
 				4F1028BB2BD206AE008DB16B /* KthLargest.cpp in Sources */,
 				7B3497A4C32C455C8FAE6BE4 /* TopKFrequent.cpp in Sources */,
+				4F44A8C82BDCB6FF0093BB44 /* ImplementTrie.cpp in Sources */,
 				4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */,
 				4F8B3C1E2BC7869700D4047D /* SameTree.cpp in Sources */,
+				4F44A8BF2BDCA4AB0093BB44 /* LetterCombinationsOfAPhoneNumber.cpp in Sources */,
 				4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */,
 				4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */,
 				4F44A8AD2BDBB2050093BB44 /* CombinationSum.cpp in Sources */,
@@ -682,6 +711,7 @@
 				4FC98BDC2BB8F78300EB0989 /* BestTimeToBuyAndSellStock.cpp in Sources */,
 				4F8B3BF72BC2B6F300D4047D /* MediumOfTwoSortedArray.cpp in Sources */,
 				4FC98BD02BB6C66200EB0989 /* LongestConsecutiveSequence.cpp in Sources */,
+				4F44A8BC2BDC9DDF0093BB44 /* PalindromePartitioning.cpp in Sources */,
 				4F8B3C152BC683FC00D4047D /* MaximumDepthOfBinaryTree.cpp in Sources */,
 				4F8B3C302BCC1ABF00D4047D /* ValidateBinarySearchTree.cpp in Sources */,
 				4F8B3C392BCD0DE200D4047D /* BinaryTreeMaximumPathSum.cpp in Sources */,
