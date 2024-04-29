@@ -58,6 +58,11 @@
 		4F44A8C82BDCB6FF0093BB44 /* ImplementTrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8C62BDCB6FF0093BB44 /* ImplementTrie.cpp */; };
 		4F44A8CB2BDD486A0093BB44 /* DesignAddAndSearchWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8C92BDD486A0093BB44 /* DesignAddAndSearchWords.cpp */; };
 		4F44A8CE2BDD552E0093BB44 /* WordSearchII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8CC2BDD552E0093BB44 /* WordSearchII.cpp */; };
+		4F44A8D12BDF7AFB0093BB44 /* NumberOfIslands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8CF2BDF7AFB0093BB44 /* NumberOfIslands.cpp */; };
+		4F44A8D42BDF80620093BB44 /* MaxAreaOfIsland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8D22BDF80620093BB44 /* MaxAreaOfIsland.cpp */; };
+		4F44A8D72BDF83800093BB44 /* CloneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8D52BDF83800093BB44 /* CloneGraph.cpp */; };
+		4F44A8DA2BDF86C80093BB44 /* RottingOranges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8D82BDF86C80093BB44 /* RottingOranges.cpp */; };
+		4F44A8DD2BDF8F920093BB44 /* PacificAtlanticWaterFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8DB2BDF8F920093BB44 /* PacificAtlanticWaterFlow.cpp */; };
 		4F8B3BDF2BBC084E00D4047D /* GenerateParanthesis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */; };
 		4F8B3BE22BBE595E00D4047D /* DailyTemperature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */; };
 		4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B3BE32BBE630600D4047D /* CarFleet.cpp */; };
@@ -190,6 +195,16 @@
 		4F44A8CA2BDD486A0093BB44 /* DesignAddAndSearchWords.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DesignAddAndSearchWords.hpp; path = PGWeek5/DesignAddAndSearchWords.hpp; sourceTree = "<group>"; };
 		4F44A8CC2BDD552E0093BB44 /* WordSearchII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WordSearchII.cpp; path = PGWeek5/WordSearchII.cpp; sourceTree = "<group>"; };
 		4F44A8CD2BDD552E0093BB44 /* WordSearchII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = WordSearchII.hpp; path = PGWeek5/WordSearchII.hpp; sourceTree = "<group>"; };
+		4F44A8CF2BDF7AFB0093BB44 /* NumberOfIslands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NumberOfIslands.cpp; path = PGWeek6/NumberOfIslands.cpp; sourceTree = "<group>"; };
+		4F44A8D02BDF7AFB0093BB44 /* NumberOfIslands.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = NumberOfIslands.hpp; path = PGWeek6/NumberOfIslands.hpp; sourceTree = "<group>"; };
+		4F44A8D22BDF80620093BB44 /* MaxAreaOfIsland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MaxAreaOfIsland.cpp; path = PGWeek6/MaxAreaOfIsland.cpp; sourceTree = "<group>"; };
+		4F44A8D32BDF80620093BB44 /* MaxAreaOfIsland.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MaxAreaOfIsland.hpp; path = PGWeek6/MaxAreaOfIsland.hpp; sourceTree = "<group>"; };
+		4F44A8D52BDF83800093BB44 /* CloneGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CloneGraph.cpp; path = PGWeek6/CloneGraph.cpp; sourceTree = "<group>"; };
+		4F44A8D62BDF83800093BB44 /* CloneGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CloneGraph.hpp; path = PGWeek6/CloneGraph.hpp; sourceTree = "<group>"; };
+		4F44A8D82BDF86C80093BB44 /* RottingOranges.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RottingOranges.cpp; path = PGWeek6/RottingOranges.cpp; sourceTree = "<group>"; };
+		4F44A8D92BDF86C80093BB44 /* RottingOranges.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = RottingOranges.hpp; path = PGWeek6/RottingOranges.hpp; sourceTree = "<group>"; };
+		4F44A8DB2BDF8F920093BB44 /* PacificAtlanticWaterFlow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PacificAtlanticWaterFlow.cpp; path = PGWeek6/PacificAtlanticWaterFlow.cpp; sourceTree = "<group>"; };
+		4F44A8DC2BDF8F920093BB44 /* PacificAtlanticWaterFlow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PacificAtlanticWaterFlow.hpp; path = PGWeek6/PacificAtlanticWaterFlow.hpp; sourceTree = "<group>"; };
 		4F8B3BDD2BBC084E00D4047D /* GenerateParanthesis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateParanthesis.cpp; path = PGWeek2/GenerateParanthesis.cpp; sourceTree = "<group>"; };
 		4F8B3BDE2BBC084E00D4047D /* GenerateParanthesis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GenerateParanthesis.hpp; path = PGWeek2/GenerateParanthesis.hpp; sourceTree = "<group>"; };
 		4F8B3BE02BBE595E00D4047D /* DailyTemperature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DailyTemperature.cpp; path = PGWeek2/DailyTemperature.cpp; sourceTree = "<group>"; };
@@ -449,6 +464,11 @@
 				4F44A8C62BDCB6FF0093BB44 /* ImplementTrie.cpp */,
 				4F44A8C92BDD486A0093BB44 /* DesignAddAndSearchWords.cpp */,
 				4F44A8CC2BDD552E0093BB44 /* WordSearchII.cpp */,
+				4F44A8CF2BDF7AFB0093BB44 /* NumberOfIslands.cpp */,
+				4F44A8D22BDF80620093BB44 /* MaxAreaOfIsland.cpp */,
+				4F44A8D52BDF83800093BB44 /* CloneGraph.cpp */,
+				4F44A8D82BDF86C80093BB44 /* RottingOranges.cpp */,
+				4F44A8DB2BDF8F920093BB44 /* PacificAtlanticWaterFlow.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -470,6 +490,11 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F44A8DC2BDF8F920093BB44 /* PacificAtlanticWaterFlow.hpp */,
+				4F44A8D92BDF86C80093BB44 /* RottingOranges.hpp */,
+				4F44A8D62BDF83800093BB44 /* CloneGraph.hpp */,
+				4F44A8D32BDF80620093BB44 /* MaxAreaOfIsland.hpp */,
+				4F44A8D02BDF7AFB0093BB44 /* NumberOfIslands.hpp */,
 				4F44A8CD2BDD552E0093BB44 /* WordSearchII.hpp */,
 				4F44A8CA2BDD486A0093BB44 /* DesignAddAndSearchWords.hpp */,
 				4F44A8C72BDCB6FF0093BB44 /* ImplementTrie.hpp */,
@@ -649,7 +674,9 @@
 				4F44A8B02BDBB91A0093BB44 /* Permutations.cpp in Sources */,
 				4FC332B62BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp in Sources */,
 				4FC332B02BBA7DB700BE85DF /* SlidingWindowMaximum.cpp in Sources */,
+				4F44A8DA2BDF86C80093BB44 /* RottingOranges.cpp in Sources */,
 				196B06F5D80946218F184750 /* IOPractice.cpp in Sources */,
+				4F44A8D12BDF7AFB0093BB44 /* NumberOfIslands.cpp in Sources */,
 				4F8B3BEB2BBFBFCB00D4047D /* BinarySearch.cpp in Sources */,
 				4FC98BE82BB986E200EB0989 /* LongestCharacterReplacement.cpp in Sources */,
 				4F44A8A72BDB8DE80093BB44 /* Subsets.cpp in Sources */,
@@ -675,6 +702,7 @@
 				4F8B3C272BC8F07600D4047D /* BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				4F44A8C52BDCA8170093BB44 /* NQueens.cpp in Sources */,
 				4F8B3C3C2BCD161500D4047D /* SerializeAndDeserializeBinaryTree.cpp in Sources */,
+				4F44A8DD2BDF8F920093BB44 /* PacificAtlanticWaterFlow.cpp in Sources */,
 				4F8B3C2A2BC8F7EB00D4047D /* BinaryTreeRightSideView.cpp in Sources */,
 				4FA1843F2B8C7B1B003A1724 /* ReverseLinkedList.cpp in Sources */,
 				4F8B3C1B2BC68B4000D4047D /* BalancedBinaryTree.cpp in Sources */,
@@ -710,10 +738,12 @@
 				9337A884C53F48EE847CCD02 /* MergeIntervals.cpp in Sources */,
 				428F95FE2ADD439D927E1ECA /* SubarraySumEqualsK.cpp in Sources */,
 				4F44A8952BD7B8A80093BB44 /* LastStoneWeight.cpp in Sources */,
+				4F44A8D42BDF80620093BB44 /* MaxAreaOfIsland.cpp in Sources */,
 				4F8B3C242BC7B01300D4047D /* LowestCommonAncester.cpp in Sources */,
 				4FC98BCD2BB6BEA600EB0989 /* ValidSudoku.cpp in Sources */,
 				4F44A89E2BD8CB900093BB44 /* TaskScheduler.cpp in Sources */,
 				4F8B3C2D2BC8FD3900D4047D /* CountGoodNodesInBinaryTree.cpp in Sources */,
+				4F44A8D72BDF83800093BB44 /* CloneGraph.cpp in Sources */,
 				4F8B3C092BC51E8500D4047D /* LRUCache.cpp in Sources */,
 				4F8B3BEE2BBFCA6000D4047D /* SearchA2DMatrix.cpp in Sources */,
 				4FA184332B7D9DA0003A1724 /* ThreeSum.cpp in Sources */,

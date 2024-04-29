@@ -18,14 +18,37 @@ class TrieNode {
 public:
     std::unordered_map<char, TrieNode*> next;
     bool isWord;
-    std::string word;
+    int ref = 0;
     TrieNode() : isWord(false) {};
     TrieNode(bool isWord) : isWord(isWord) {};
+    void addWord(std::string word) {
+        ref++;
+        auto *curr = this;
+        for (const auto&c : word) {
+            if (curr->next[c] == nullptr) {
+                curr->next[c] = new TrieNode();
+            }
+            curr = curr->next[c];
+            curr->ref++;
+        }
+        curr->isWord = true;
+    }
+    
+    void deleteWord(std::string word) {
+        auto *curr = this;
+        curr->ref--;
+        for (const auto&c : word) {
+            auto *next = curr->next[c];
+            next->ref--;
+            curr = next;
+        }
+        curr->isWord = false;
+    }
 };
 
 
-class WordSearchII {
-    std::unordered_set<std::string> sol;
+class Solution {
+    std::vector<std::string> sol;
     std::vector<std::vector<bool>> visited;
     TrieNode *root;
 public:
@@ -34,31 +57,33 @@ public:
         this->root = this->constructTrie(words);
         for (int i = 0; i < board.size(); i++) {
             for (int j = 0; j < board[0].size();j++) {
-                findWordsHelper(board, this->root, i, j);
+                std::string curr = "";
+                findWordsHelper(board, this->root, i, j, curr);
             }
         }
         
-        std::vector<std::string> ans;
-        ans.insert(ans.end(), sol.begin(), sol.end());
-        return ans;
+        return sol;
     }
     
-    void findWordsHelper(std::vector<std::vector<char>>& board, TrieNode *curr, int r, int c){
-        if (curr->isWord) {
-            this->sol.insert(curr->word);
+    void findWordsHelper(std::vector<std::vector<char>>& board, TrieNode *curr, int r, int c, std::string &word){
+        if (curr->isWord && curr->ref > 0) {
+            this->sol.push_back(word);
+            this->root->deleteWord(word);
         }
         
-        if (r < 0 || r >= board.size() || c < 0 || c >= board[0].size() || visited[r][c]) {
+        if (r < 0 || r >= board.size() || c < 0 || c >= board[0].size() || visited[r][c] || curr->ref == 0) {
             return;
         }
         
         if (curr->next.count(board[r][c]) != 0) {
             visited[r][c] = true;
+            word += board[r][c];
             auto *next = curr->next[board[r][c]];
-            findWordsHelper(board, next, r+1, c);
-            findWordsHelper(board, next, r-1, c);
-            findWordsHelper(board, next, r, c+1);
-            findWordsHelper(board, next, r, c-1);
+            findWordsHelper(board, next, r+1, c, word);
+            findWordsHelper(board, next, r-1, c, word);
+            findWordsHelper(board, next, r, c+1, word);
+            findWordsHelper(board, next, r, c-1, word);
+            word = word.substr(0, word.size()-1);
             visited[r][c] = false;
         }
         
@@ -68,18 +93,7 @@ public:
     TrieNode *constructTrie(std::vector<std::string>& words) {
         auto *root = new TrieNode();
         for (const auto &word : words) {
-            auto *curr = root;
-            for (int i = 0; i < word.size(); i++) {
-                char c = word[i];
-                if (curr->next.count(c) == 0) {
-                     curr->next[c] = new TrieNode();
-                }
-                curr = curr->next[c];
-                if (i == word.size()-1) {
-                    curr->isWord = true;
-                    curr->word = word;
-                }
-            }
+            root->addWord(word);
         }
         return root;
     }
