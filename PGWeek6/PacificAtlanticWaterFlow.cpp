@@ -17,8 +17,8 @@ std::vector<std::vector<int>> PacificAtlanticWaterFlow::pacificAtlantic(std::vec
     }
     
     for (int j = 0; j < heights[0].size(); j++) {
-        flowUpward(heights, pacific, 0, i, 0);
-        flowUpward(heights, atlantic, heights.size()-1, i, 0);
+        flowUpward(heights, pacific, 0, j, 0);
+        flowUpward(heights, atlantic, heights.size()-1, j, 0);
     }
     
     std::vector<std::vector<int>> sol;
