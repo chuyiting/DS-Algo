@@ -17,7 +17,7 @@ public:
     std::vector<int> findRedundantConnectionUnionFind(std::vector<std::vector<int>>& edges);
     
     int find(std::vector<int> &parent, int e);
-    void union(int x, int y, std::vector<int> &parent, std::vector<int> &rank);
+    void myunion(int x, int y, std::vector<int> &parent, std::vector<int> &rank);
 };
 
 #endif /* RedundantConnection_hpp */

@@ -14,6 +14,6 @@
 class KokoEatingBananas {
 public:
     int minEatingSpeed(std::vector<int>& piles, int h);
-}
+};
 
 #endif /* KokoEatingBananas_hpp */

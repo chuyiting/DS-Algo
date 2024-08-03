@@ -14,6 +14,6 @@
 class SearchA2DMatrix {
 public:
     bool searchMatrix(std::vector<std::vector<int>>& matrix, int target);
-}
+};
 
 #endif /* SearchA2DMatrix_hpp */

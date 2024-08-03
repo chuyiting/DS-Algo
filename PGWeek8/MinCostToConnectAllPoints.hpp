@@ -13,9 +13,7 @@
 
 class MinCostToConnectAllPoints {
 public:
-    int minCostConnectPoints(std::vector<std::vector<int>>& points) {
-        
-    };
+    int minCostConnectPoints(std::vector<std::vector<int>>& points);
 };
 
 #endif /* MinCostToConnectAllPoints_hpp */

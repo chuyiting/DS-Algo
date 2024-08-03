@@ -13,6 +13,7 @@
 #include "Week3/SearchInRotatedSortedArray.hpp"
 #include "PGWeek1/LongestSubstringWithoutRepeatingChar.hpp"
 #include "PGWeek2/EvaluateReversePolishNotation.hpp"
+#include "PGWeek9/RegularExpressionMatching.hpp"
 #include <vector>
 #include <string>
 
@@ -140,6 +141,13 @@ void testEvaluateReversePolishNotation() {
     std::cout << evaluateReversePolishNotation->evalRPN(input) << std::endl;
 }
 
+void testRegularExpressionMatching() {
+    auto regularExpressionMatching = std::make_shared<RegularExpressionMatching>();
+    std::string s = "mississippi";
+    std::string p = "mis*is*ip*";
+    std:: cout << regularExpressionMatching->isMatch(s, p) << std::endl;
+}
+
 int main() {
 //    testTwoSum();
 //    testValidAnagram();
@@ -148,6 +156,7 @@ int main() {
 //    testMaximumProductSubarray();
 //    testSearchInRotatedSortedArray();
 //    testlongestSubstringWithoutRepeatingChar();
-    testEvaluateReversePolishNotation();
+//    testEvaluateReversePolishNotation();
+    testRegularExpressionMatching();
     return 0;
 }
