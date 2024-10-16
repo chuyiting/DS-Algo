@@ -13,7 +13,7 @@
 
 class MergeTripletsToFormTargetTriplets {
 public:
-    bool mergeTriplets(std::vector<std::vector<int>>& triplets, std::vector<int>& target)
+    bool mergeTriplets(std::vector<std::vector<int>>& triplets, std::vector<int>& target);
 };
 
 #endif /* MergeTripletsToFormTargetTriplets_hpp */

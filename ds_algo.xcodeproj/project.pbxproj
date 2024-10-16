@@ -73,6 +73,12 @@
 		4F44A8DA2BDF86C80093BB44 /* RottingOranges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8D82BDF86C80093BB44 /* RottingOranges.cpp */; };
 		4F44A8DD2BDF8F920093BB44 /* PacificAtlanticWaterFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F44A8DB2BDF8F920093BB44 /* PacificAtlanticWaterFlow.cpp */; };
 		4F548A782C32929600C5187E /* MinCostToConnectAllPoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F548A762C32929600C5187E /* MinCostToConnectAllPoints.cpp */; };
+		4F6677542C9FC30100826E92 /* CirculaPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F6677522C9FC30100826E92 /* CirculaPrinter.cpp */; };
+		4F6677572C9FC51B00826E92 /* AncestralName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F6677552C9FC51B00826E92 /* AncestralName.cpp */; };
+		4F66775A2CA2798800826E92 /* CountInversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F6677582CA2798800826E92 /* CountInversions.cpp */; };
+		4F66775D2CA32AE900826E92 /* AVLTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F66775B2CA32AE900826E92 /* AVLTree.cpp */; };
+		4F6D09062CAFB30A00002B83 /* OptimalNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D09042CAFB30A00002B83 /* OptimalNetwork.cpp */; };
+		4F6D09092CB4945100002B83 /* BrazeOA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D09072CB4945000002B83 /* BrazeOA.cpp */; };
 		4F7ADEA32C4F59F100576124 /* DistinctSubsequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F7ADEA12C4F59F100576124 /* DistinctSubsequences.cpp */; };
 		4F7ADEA62C4F66C700576124 /* EditDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F7ADEA42C4F66C700576124 /* EditDistance.cpp */; };
 		4F7ADEA92C4F89AE00576124 /* BurstBalloons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F7ADEA72C4F89AE00576124 /* BurstBalloons.cpp */; };
@@ -133,6 +139,7 @@
 		4FB321E42C4A3F67005C7452 /* TargetSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB321E22C4A3F67005C7452 /* TargetSum.cpp */; };
 		4FB321E72C4A446E005C7452 /* InterleavingString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB321E52C4A446E005C7452 /* InterleavingString.cpp */; };
 		4FB321EA2C4A55BC005C7452 /* LongestIncreasingPathInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB321E82C4A55BC005C7452 /* LongestIncreasingPathInMatrix.cpp */; };
+		4FB522D12C8B16420025C34F /* HuffmanCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB522CF2C8B16420025C34F /* HuffmanCode.cpp */; };
 		4FB5D1E62C39103F005BA4A2 /* NetworkDelayTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5D1E42C39103F005BA4A2 /* NetworkDelayTime.cpp */; };
 		4FB5D1E92C393D0A005BA4A2 /* SwimInRisingWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5D1E72C393D0A005BA4A2 /* SwimInRisingWater.cpp */; };
 		4FB5D1EC2C3947AA005BA4A2 /* CheapestFlightsWithinKStops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5D1EA2C3947AA005BA4A2 /* CheapestFlightsWithinKStops.cpp */; };
@@ -289,6 +296,18 @@
 		4F44A8DC2BDF8F920093BB44 /* PacificAtlanticWaterFlow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PacificAtlanticWaterFlow.hpp; path = PGWeek6/PacificAtlanticWaterFlow.hpp; sourceTree = "<group>"; };
 		4F548A762C32929600C5187E /* MinCostToConnectAllPoints.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MinCostToConnectAllPoints.cpp; path = PGWeek8/MinCostToConnectAllPoints.cpp; sourceTree = "<group>"; };
 		4F548A772C32929600C5187E /* MinCostToConnectAllPoints.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MinCostToConnectAllPoints.hpp; path = PGWeek8/MinCostToConnectAllPoints.hpp; sourceTree = "<group>"; };
+		4F6677522C9FC30100826E92 /* CirculaPrinter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CirculaPrinter.cpp; path = PGWeek10/CirculaPrinter.cpp; sourceTree = "<group>"; };
+		4F6677532C9FC30100826E92 /* CirculaPrinter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CirculaPrinter.hpp; path = PGWeek10/CirculaPrinter.hpp; sourceTree = "<group>"; };
+		4F6677552C9FC51B00826E92 /* AncestralName.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AncestralName.cpp; path = PGWeek10/AncestralName.cpp; sourceTree = "<group>"; };
+		4F6677562C9FC51B00826E92 /* AncestralName.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = AncestralName.hpp; path = PGWeek10/AncestralName.hpp; sourceTree = "<group>"; };
+		4F6677582CA2798800826E92 /* CountInversions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CountInversions.cpp; path = PGWeek10/CountInversions.cpp; sourceTree = "<group>"; };
+		4F6677592CA2798800826E92 /* CountInversions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CountInversions.hpp; path = PGWeek10/CountInversions.hpp; sourceTree = "<group>"; };
+		4F66775B2CA32AE900826E92 /* AVLTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AVLTree.cpp; path = PGWeek10/AVLTree.cpp; sourceTree = "<group>"; };
+		4F66775C2CA32AE900826E92 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = AVLTree.hpp; path = PGWeek10/AVLTree.hpp; sourceTree = "<group>"; };
+		4F6D09042CAFB30A00002B83 /* OptimalNetwork.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OptimalNetwork.cpp; path = PGWeek10/OptimalNetwork.cpp; sourceTree = "<group>"; };
+		4F6D09052CAFB30A00002B83 /* OptimalNetwork.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = OptimalNetwork.hpp; path = PGWeek10/OptimalNetwork.hpp; sourceTree = "<group>"; };
+		4F6D09072CB4945000002B83 /* BrazeOA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BrazeOA.cpp; path = PGWeek10/BrazeOA.cpp; sourceTree = "<group>"; };
+		4F6D09082CB4945100002B83 /* BrazeOA.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BrazeOA.hpp; path = PGWeek10/BrazeOA.hpp; sourceTree = "<group>"; };
 		4F7ADE9F2C4F598F00576124 /* DistinctSubsequences.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DistinctSubsequences.hpp; path = PGWeek9/DistinctSubsequences.hpp; sourceTree = "<group>"; };
 		4F7ADEA12C4F59F100576124 /* DistinctSubsequences.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DistinctSubsequences.cpp; path = PGWeek9/DistinctSubsequences.cpp; sourceTree = "<group>"; };
 		4F7ADEA22C4F59F100576124 /* DistinctSubsequences.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DistinctSubsequences.hpp; path = PGWeek9/DistinctSubsequences.hpp; sourceTree = "<group>"; };
@@ -411,6 +430,8 @@
 		4FB321E62C4A446E005C7452 /* InterleavingString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = InterleavingString.hpp; path = PGWeek8/InterleavingString.hpp; sourceTree = "<group>"; };
 		4FB321E82C4A55BC005C7452 /* LongestIncreasingPathInMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LongestIncreasingPathInMatrix.cpp; path = PGWeek8/LongestIncreasingPathInMatrix.cpp; sourceTree = "<group>"; };
 		4FB321E92C4A55BC005C7452 /* LongestIncreasingPathInMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LongestIncreasingPathInMatrix.hpp; path = PGWeek8/LongestIncreasingPathInMatrix.hpp; sourceTree = "<group>"; };
+		4FB522CF2C8B16420025C34F /* HuffmanCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HuffmanCode.cpp; path = PGWeek10/HuffmanCode.cpp; sourceTree = "<group>"; };
+		4FB522D02C8B16420025C34F /* HuffmanCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = HuffmanCode.hpp; path = PGWeek10/HuffmanCode.hpp; sourceTree = "<group>"; };
 		4FB5D1E42C39103F005BA4A2 /* NetworkDelayTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NetworkDelayTime.cpp; path = PGWeek8/NetworkDelayTime.cpp; sourceTree = "<group>"; };
 		4FB5D1E52C39103F005BA4A2 /* NetworkDelayTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = NetworkDelayTime.hpp; path = PGWeek8/NetworkDelayTime.hpp; sourceTree = "<group>"; };
 		4FB5D1E72C393D0A005BA4A2 /* SwimInRisingWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SwimInRisingWater.cpp; path = PGWeek8/SwimInRisingWater.cpp; sourceTree = "<group>"; };
@@ -727,6 +748,13 @@
 				4FB8A9732C5E240300A7EC6C /* MissingNumber.cpp */,
 				4FB8A9762C5E28E800A7EC6C /* SumOfTwoIntegers.cpp */,
 				4FB8A9792C5E314700A7EC6C /* ReverseInteger.cpp */,
+				4FB522CF2C8B16420025C34F /* HuffmanCode.cpp */,
+				4F6677522C9FC30100826E92 /* CirculaPrinter.cpp */,
+				4F6677552C9FC51B00826E92 /* AncestralName.cpp */,
+				4F6677582CA2798800826E92 /* CountInversions.cpp */,
+				4F66775B2CA32AE900826E92 /* AVLTree.cpp */,
+				4F6D09042CAFB30A00002B83 /* OptimalNetwork.cpp */,
+				4F6D09072CB4945000002B83 /* BrazeOA.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -748,6 +776,13 @@
 		F1EC5F4A91F043C29AC639FE /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F6D09082CB4945100002B83 /* BrazeOA.hpp */,
+				4F6D09052CAFB30A00002B83 /* OptimalNetwork.hpp */,
+				4F66775C2CA32AE900826E92 /* AVLTree.hpp */,
+				4F6677592CA2798800826E92 /* CountInversions.hpp */,
+				4F6677562C9FC51B00826E92 /* AncestralName.hpp */,
+				4F6677532C9FC30100826E92 /* CirculaPrinter.hpp */,
+				4FB522D02C8B16420025C34F /* HuffmanCode.hpp */,
 				4FB8A97A2C5E314700A7EC6C /* ReverseInteger.hpp */,
 				4FB8A9772C5E28E800A7EC6C /* SumOfTwoIntegers.hpp */,
 				4FB8A9742C5E240300A7EC6C /* MissingNumber.hpp */,
@@ -1000,6 +1035,7 @@
 				4FEB56E52C5A557C00BB6F07 /* NonOverlappingIntervals.cpp in Sources */,
 				4FC332B62BBBF66B00BE85DF /* EvaluateReversePolishNotation.cpp in Sources */,
 				4FB321C92C4526C2005C7452 /* CoinChange.cpp in Sources */,
+				4F6D09062CAFB30A00002B83 /* OptimalNetwork.cpp in Sources */,
 				4FC332B02BBA7DB700BE85DF /* SlidingWindowMaximum.cpp in Sources */,
 				4F7ADEA62C4F66C700576124 /* EditDistance.cpp in Sources */,
 				4F44A8DA2BDF86C80093BB44 /* RottingOranges.cpp in Sources */,
@@ -1013,6 +1049,7 @@
 				47CD1BCD482547BF9139E268 /* TwoSum.cpp in Sources */,
 				4F8B3C182BC684C200D4047D /* DiameterOfBinaryTree.cpp in Sources */,
 				4FB8A9722C5E208600A7EC6C /* ReverseBits.cpp in Sources */,
+				4F6677542C9FC30100826E92 /* CirculaPrinter.cpp in Sources */,
 				4F8B3C0C2BC532F900D4047D /* MergeKList.cpp in Sources */,
 				4FB321C32C451748005C7452 /* PalindromicSubstings.cpp in Sources */,
 				4F8B3BE52BBE630600D4047D /* CarFleet.cpp in Sources */,
@@ -1048,6 +1085,7 @@
 				4F360FD12BE0DF830081EAA0 /* SurroundedRegions.cpp in Sources */,
 				4F44A8C52BDCA8170093BB44 /* NQueens.cpp in Sources */,
 				4F8B3C3C2BCD161500D4047D /* SerializeAndDeserializeBinaryTree.cpp in Sources */,
+				4F66775D2CA32AE900826E92 /* AVLTree.cpp in Sources */,
 				4F03DAA12C3FADD7007CA326 /* StringEncodeAndDecode.cpp in Sources */,
 				4F44A8DD2BDF8F920093BB44 /* PacificAtlanticWaterFlow.cpp in Sources */,
 				4F8B3C2A2BC8F7EB00D4047D /* BinaryTreeRightSideView.cpp in Sources */,
@@ -1079,7 +1117,9 @@
 				4FC98BEB2BBA547000EB0989 /* PermutationInString.cpp in Sources */,
 				4FC332AD2BBA778600BE85DF /* MiniumWindowSubstring.cpp in Sources */,
 				4FEB56C72C50FDA900BB6F07 /* RegularExpressionMatching.cpp in Sources */,
+				4F6677572C9FC51B00826E92 /* AncestralName.cpp in Sources */,
 				4F44A8AD2BDBB2050093BB44 /* CombinationSum.cpp in Sources */,
+				4F6D09092CB4945100002B83 /* BrazeOA.cpp in Sources */,
 				4FB8A95D2C5CF74400A7EC6C /* PlusOne.cpp in Sources */,
 				4FC98BD32BB7A33B00EB0989 /* ValidPalindrome.cpp in Sources */,
 				4FEB56CA2C54EF8C00BB6F07 /* MaximumSubarray.cpp in Sources */,
@@ -1087,6 +1127,7 @@
 				4FB321B42C44DA9E005C7452 /* ClimbStairs.cpp in Sources */,
 				4F44A8A12BD8E28E0093BB44 /* DesignTwitter.cpp in Sources */,
 				4FB321CF2C4658FB005C7452 /* WordBreak.cpp in Sources */,
+				4FB522D12C8B16420025C34F /* HuffmanCode.cpp in Sources */,
 				4FEB56DF2C5A3EA000BB6F07 /* ValidParenthesisString.cpp in Sources */,
 				4FB8A9692C5E186300A7EC6C /* SingleNumber.cpp in Sources */,
 				4FB8A94E2C5CC44A00A7EC6C /* MinimumIntervalToIncludeEachQuery.cpp in Sources */,
@@ -1097,6 +1138,7 @@
 				4FB321BA2C44DF53005C7452 /* HouseRobber.cpp in Sources */,
 				4FC98BCA2BB6BD8C00EB0989 /* ContainsDuplicate.cpp in Sources */,
 				4FB8A9542C5CDEF300A7EC6C /* SpiralMatrix.cpp in Sources */,
+				4F66775A2CA2798800826E92 /* CountInversions.cpp in Sources */,
 				4FB8A95A2C5CF3C400A7EC6C /* HappyNumber.cpp in Sources */,
 				4FEB56D92C5A26CF00BB6F07 /* MergeTripletsToFormTargetTriplets.cpp in Sources */,
 				4FA184482B8D849B003A1724 /* FindMinimumInRotatedSortedArray.cpp in Sources */,

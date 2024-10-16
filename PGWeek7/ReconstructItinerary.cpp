@@ -13,7 +13,7 @@
 #include <iterator>
 
 std::vector<std::string> ReconstructItnerary::findItinerary(std::vector<std::vector<std::string>>& tickets) {
-    std::unordered_map<std::string, std::multiset<std::string>> graph;
+    std::unordered_map<std::string, std::set<std::string>> graph;
     for (const auto& ticket : tickets) {
         if (graph.count(ticket[0]) == 0) {
             graph[ticket[0]] = {};
@@ -27,7 +27,7 @@ std::vector<std::string> ReconstructItnerary::findItinerary(std::vector<std::vec
 }
 
 
-bool ReconstructItnerary::dfs(std::unordered_map<std::string, std::multiset<std::string>> graph, std::string curr, int ticketsLeft) {
+bool ReconstructItnerary::dfs(std::unordered_map<std::string, std::set<std::string>> graph, std::string curr, int ticketsLeft) {
     int numOfNei = graph[curr].size();
     if (numOfNei == 1 && ticketsLeft == 1) {
         this->sol.push_back(*graph[curr].begin());

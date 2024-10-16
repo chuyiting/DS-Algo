@@ -19,7 +19,7 @@ class ReconstructItnerary {
 public:
     std::vector<std::string> findItinerary(std::vector<std::vector<std::string>>& tickets);
     
-    bool dfs(std::unordered_map<std::string, std::multiset<std::string>> graph, std::string curr, int ticketsLeft);
+    bool dfs(std::unordered_map<std::string, std::set<std::string>> graph, std::string curr, int ticketsLeft);
 };
 
 #endif /* ReconstructItinerary_hpp */

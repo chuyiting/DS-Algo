@@ -14,6 +14,10 @@
 #include "PGWeek1/LongestSubstringWithoutRepeatingChar.hpp"
 #include "PGWeek2/EvaluateReversePolishNotation.hpp"
 #include "PGWeek9/RegularExpressionMatching.hpp"
+#include "PGWeek10/HuffmanCode.hpp"
+#include "PGWeek10/CountInversions.hpp"
+#include "PGWeek10/CountInversions.hpp"
+#include "PGWeek10/OptimalNetwork.hpp"
 #include <vector>
 #include <string>
 
@@ -148,6 +152,29 @@ void testRegularExpressionMatching() {
     std:: cout << regularExpressionMatching->isMatch(s, p) << std::endl;
 }
 
+void testHuffmanCode() {
+    auto huffmanCode = std::make_shared<HuffmanCode>();
+    auto *tree = huffmanCode->buildHuffmanTree({ 'a', 'b', 'c', 'd', 'e', 'f' }, { 5, 9, 12, 13, 16, 45 });
+    huffmanCode->huffmanCode(tree);
+}
+
+void testCountInversions() {
+    auto countInversions = std::make_shared<CountInversions>();
+    std::vector<int> input1 = {0, 4, 1, 2, 3};
+    std::cout << countInversions->countInversion(input1);
+}
+
+void testOptimalNetwork() {
+    auto optimalNetwork = std::make_shared<OptimalNetwork>();
+    int gNode = 3;
+    int k = 1;
+    std::vector<int> gFrom = {1, 2, 3};
+    std::vector<int> gTo = {2, 3, 1};
+    std::vector<int> gWeights = {4, 5, 3};
+    
+    std:: cout << optimalNetwork->getMinMaxLatency(gNode, gFrom, gTo, gWeights, k) << std::endl;
+}
+ 
 int main() {
 //    testTwoSum();
 //    testValidAnagram();
@@ -157,6 +184,9 @@ int main() {
 //    testSearchInRotatedSortedArray();
 //    testlongestSubstringWithoutRepeatingChar();
 //    testEvaluateReversePolishNotation();
-    testRegularExpressionMatching();
+//    testRegularExpressionMatching();
+//    testHuffmanCode();
+//    testCountInversions();
+    testOptimalNetwork();
     return 0;
 }

@@ -16,7 +16,7 @@
 
 struct PointHash {
 public:
-    size_t operator()(const std::vector<int> &p) {
+    size_t operator()(const std::vector<int> &p) const {
         return p[0]*1000 + p[1];
     }
 };

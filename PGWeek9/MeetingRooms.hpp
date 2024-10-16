@@ -9,6 +9,7 @@
 #define MeetingRooms_hpp
 
 #include <stdio.h>
+#include <vector>
 
 class Interval {
 public:

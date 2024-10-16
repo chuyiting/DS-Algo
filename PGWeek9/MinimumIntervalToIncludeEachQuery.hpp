@@ -13,7 +13,7 @@
 
 class MinimumIntervalToIncludeEachQuery {
 public:
-    std::vector<int> minInterval(std::vector<std::vector<int>>& intervals, std::vector<int>& queries)
+    std::vector<int> minInterval(std::vector<std::vector<int>>& intervals, std::vector<int>& queries);
 };
 
 #endif /* MinimumIntervalToIncludeEachQuery_hpp */

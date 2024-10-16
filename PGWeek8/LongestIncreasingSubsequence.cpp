@@ -32,18 +32,20 @@ int LongestIncreasingSubsequence::lengthOfLISPS(std::vector<int>& nums) {
         if (nums[i] > deckOfCards[deckOfCards.size()-1]) {
             deckOfCards.push_back(nums[i]);
         } else {
-            int l = 0, r = deckOfCards.size()-1;
-            while (l <= r) {
-                int mid = (l+r) / 2;
-                if (deckOfCards[mid] >= nums[i] && (mid == 0 || deckOfCards[mid-1] < nums[i])) {
-                    deckOfCards[mid] = nums[i];
-                    break;
-                } else if (deckOfCards[mid] > nums[i]) {
-                    r = mid-1;
-                } else {
-                    l = mid+1;
-                }
-            }
+            std::vector<int>::iterator to_replace = std::upper_bound(deckOfCards.begin(), deckOfCards.end(), nums[i]);
+            *to_replace  = nums[i];
+//            int l = 0, r = deckOfCards.size()-1;
+//            while (l <= r) {
+//                int mid = (l+r) / 2;
+//                if (deckOfCards[mid] >= nums[i] && (mid == 0 || deckOfCards[mid-1] < nums[i])) {
+//                    deckOfCards[mid] = nums[i];
+//                    break;
+//                } else if (deckOfCards[mid] > nums[i]) {
+//                    r = mid-1;
+//                } else {
+//                    l = mid+1;
+//                }
+//            }
         }
     }
     return deckOfCards.size();

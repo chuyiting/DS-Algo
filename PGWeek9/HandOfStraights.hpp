@@ -13,7 +13,7 @@
 
 class HandOfStraights {
 public:
-    bool isNStraightHand(std::vector<int>& hand, int groupSize)
+    bool isNStraightHand(std::vector<int>& hand, int groupSize);
 };
 
 #endif /* HandOfStraights_hpp */
